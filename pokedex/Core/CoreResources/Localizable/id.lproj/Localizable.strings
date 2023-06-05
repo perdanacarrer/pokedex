@@ -1,0 +1,1544 @@
+/*
+  Localizable.strings
+  CoreResource
+
+  Created by indodax-rheza on 28/07/22.
+  
+*/
+
+// MARK: - Sample Controller
+"sample.btn1" = "change module (simulate change pro to lite)";
+"sample.btn2" = "open other screen";
+"sample.btn3" = "Custom Component Sample";
+"sample.btn4" = "Swiftgen Sample";
+"notificationEmptyTitle" = "Belum ada notifikasi";
+"notificationEmptySubtitle" = "Anda belum memilki notifikasi. Silakan cek kembali.";
+"notificationEmptyButton" = "Pengaturan notifikasi";
+"searchNotFoundTitle" = "Pencarian yang Anda cari tidak dapat ditemukan";
+"searchNotFoundSubtitle" = "Coba gunakan kata kunci lain untuk menemukan koin yang Anda cari";
+"coinFavoriteEmptyTitle" = "Kamu belum memiliki Koin favorit";
+"coinFavoriteEmptySubtitle" = "Tambah koin sebagai favorit untuk pantau secara cepat dan mudah";
+"coinFavoriteEmptyButton" = "Lihat Market";
+"chartNotFoundTitle" = "Tidak ada data chart";
+"errorSSLPinning" = "Koneksi anda tidak aman";
+"done" = "Done";
+"exporeIndodax" = "Jelajahi akun";
+
+"sample.swiftgen.test" = "ini bahasa Indonesia";
+"sample.swiftgen.testWithArgument" = "Hello, nama saya %@, bla bla bla %@";
+
+// MARK: - TabBar
+
+"tabBar.title.home" = "Home";
+"tabBar.title.market" = "Market";
+"tabBar.title.trade" = "Trade";
+"tabBar.title.wallet" = "Wallet";
+
+// MARK: - Loading
+"loading.description" = "Mohon menunggu...";
+
+// MARK: - General
+
+"general.btn.no" = "Tidak";
+"general.btn.copy" = "Salin";
+"general.btn.back" = "Kembali";
+"general.btn.delete" = "Hapus";
+
+//notes dl. specific ke deposit dl
+"general.label.new" = "Baru";
+"general.label.underMaintenance" = "Dalam Perbaikan";
+"general.label.comingSoon" = "Segera Datang";
+"general.label.chooseOptions" = "Pilih Opsi";
+"general.label.noInternetConnection" = "Jaringan bermasalah";
+
+// MARK: - Deposit IDR - pls change to english text later when available
+"deposit.button.cancelDepositTitle" = "Ya, Batalkan";
+"deposit.button.pay" = "Bayar";
+"deposit.button.restartPayment" = "Ulangi Pembayaran";
+"deposit.button.checkPaymentStatus" = "Lihat Status Pembayaran";
+"deposit.button.download" = "Download";
+"deposit.textField.amountTextFieldTitle" = "Total Penyetoran";
+"deposit.textField.amountMinimumPlaceholderText" = "Minimum %@ IDR";
+"deposit.textField.minimumAmountInlineErrorDesc" = "Minimum penyetoran %@ IDR";
+"deposit.textField.maximumAmountInlineErrorDesc" = "Jumlah penyetoran melebihi batas maksimal";
+"deposit.textField.cashTagPlaceholderText" = "Contoh: elonmusk";
+"deposit.textField.cashTagMinimumCharacterInlineErrorDesc" = "Minimum cashtag %@ karakter.";
+
+"deposit.label.depositIDR" = "Setor IDR";
+"deposit.label.paymentGuide" = "Panduan Penyetoran";
+"deposit.label.virtualAccountNameTitle" = "Nama Virtual Account";
+"deposit.label.waitingPaymentTitle" = "Menunggu pembayaran";
+"deposit.label.cashTagTitle" = "$Cashtag";
+"deposit.label.paymentDetailTitle" = "Detail Pembayaran";
+"deposit.label.payBeforeTitle" = "Bayar Sebelum";
+"deposit.label.timeLeft" = "Bayar Sebelum";
+"deposit.label.vaPaymentCodetitle" = "Nomor Virtual Account";
+"deposit.label.paymentCodeTitle" = "Kode Pembayaran";
+"deposit.label.cashtagCodeTitle" = "$Cashtag :";
+"deposit.label.totalPaymentTitle" = "Total Penyetoran";
+"deposit.label.serviceFeeTitle" = "Biaya Layanan";
+"deposit.label.receivedAmountTitle" = "Total Diterima";
+"deposit.label.billFormatAmount" = "%@ IDR";
+"deposit.label.emptyStateTitle" = "Tidak ada transaksi pembayaran";
+"deposit.label.emptyStateDesc" = "Untuk saat ini tidak ada transaksi pembayaran yang harus diselesaikan";
+"deposit.label.instructionNotes" = "Ikuti instruksi di bawah ini untuk melakukan penyetoran dana";
+"deposit.label.vaInstructionNotes" = "Pastikan bahwa nama virtual account di atas dengan nama akun di Indodax sudah sesuai.";
+
+"deposit.label.depoSuccess" = "Penyetoran Berhasil";
+"deposit.label.close" = "Tutup";
+"deposit.label.depoSuccessDesc" = "Selamat! Penyetoran berhasil dan saldo sedang terkirim ke akun Anda";
+
+"deposit.sheet.deleteConfirmationTitle" = "Batalkan Penyetoran";
+"deposit.sheet.deleteconfirmationDesc" = "Apakah anda yakin ingin membatalkan deposit ini?";
+"deposit.sheet.cashTagDesc" = "Gunakan $Cashtag yang terdaftar pada Jenius Pay untuk melakukan deposit menggunakan Jenius. Pastikan $Cashtag sesuai supaya transaksi Anda berhasil.";
+
+"deposit.popUp.paymentSuccessTitle" = "Pembayaran Berhasil";
+"deposit.popUp.paymentSuccessDesc" = "Selamat! Pembayaran Anda telah berhasil.";
+"deposit.popUp.paymentTimeOutTitle" = "Waktu Bayar Habis";
+"deposit.popUp.paymentTimeOutDesc" = "Batas waktu pembayaran Anda sudah habis. Lakukan pembayaran ulang?";
+
+"deposit.snackbar.vaCodeCopiedToClipboard" = "Nomor VA berhasil disalin";
+"deposit.snackbar.paymentCodeCopiedToClipboard" = "Kode pembayaran berhasil disalin";
+"deposit.snackbar.saveToDevice" = "Berhasil tersimpan di perangkat";
+"deposit.snackbar.deletePendingFailed" = "Pembatalan penyetoran gagal";
+
+// MARK: - Withdraw IDR
+"withdraw.idr.button.addAccountTitle" = "+ Tambah Alamat";
+"withdraw.idr.button.changeWithdrawAmount" = "Ubah Nominal";
+"withdraw.idr.button.saveAddress" = "Simpan Alamat";
+"withdraw.idr.button.addAddress" = "Tambah Alamat";
+
+"withdraw.idr.label.withdrawIDRNavigationTitle" = "Tarik IDR";
+"withdraw.idr.label.chooseMethodNavigationTitle" = "Pilih Metode Penarikan";
+"withdraw.idr.label.warningBankNotes" = "Nama rekening harus sama dengan nama akun.";
+"withdraw.idr.label.warningEwalletNotes" = "Pastikan nomor telepon Anda telah terdaftar di %@ sebelum melanjutkan. INDODAX tidak bertanggung jawab atas kesalahan apapun.";
+"withdraw.idr.label.warningPulsaNotes" = "Penarikan melalui Pulsa tidak dikenakan biaya layanan";
+"withdraw.idr.label.addPhoneNumberTitle" = "Tambah Nomor HP";
+"withdraw.idr.label.editWithdrawAddressTitle" = "Edit Alamat Penarikan";
+"withdraw.idr.label.activeBalanceTitle" = "Saldo Aktif";
+"withdraw.idr.label.activeBalanceDesc" = "%@ IDR";
+"withdraw.idr.label.withdrawMethodTitle" = "Metode Penarikan";
+"withdraw.idr.label.totalWithdrawTitle" = "Total Penarikan";
+"withdraw.idr.label.chooseAmountTitle" = "Pilih Nominal";
+"withdraw.idr.label.withdrawAddressTitle" = "Alamat Penarikan";
+"withdraw.idr.label.manageWithdrawAddressTitle" = "Atur Alamat Penarikan";
+
+"withdraw.idr.accountList.label.emptyStateTitle" = "Belum ada destinasi penarikan IDR";
+"withdraw.idr.accountList.label.emptyStateDesc" = "Kamu belum mendaftarkan akun alamat tujuan penarikan IDR";
+
+"withdraw.idr.textField.phoneNumberTitle" = "Nomor Handphone";
+"withdraw.idr.textField.accountLabelTitle" = "Label Akun";
+"withdraw.idr.textField.amountMinimumPlaceholderText" = "Minimum %@ IDR";
+"withdraw.idr.textField.phoneNumberPlaceHolderText" = "Contoh: 081234567890";
+"withdraw.idr.textField.accountLabelPlaceHolderText" = "Contoh: Akun BCA, Akun OVO...";
+
+"withdraw.idr.popUp.minimumWithdrawAmountErrorTitle" = "Nominal IDR terlalu kecil";
+"withdraw.idr.popUp.minimumWithdrawAmountErrorDesc" = "Anda bisa melakukan transfer minimum %@ IDR. Mohon ubah nominal IDR untuk melanjutkan proses.";
+"withdraw.idr.popUp.limitPerDayErrorTitle" = "Nominal penarikan terlalu besar";
+"withdraw.idr.popUp.limitPerDayErrorDesc" = "Limit penarikan harian Anda saat ini %@ IDR per hari. Sesuaikan nominal penarikan atau ajukan kenaikan limit penarikan harian";
+"withdraw.idr.popUp.insufficientBalanceErrorTitle" = "Saldo Anda tidak cukup";
+"withdraw.idr.popUp.insufficientBalanceErrorDesc" = "Pastikan saldo IDR Anda mencukupi. Mohon ubah nominal IDR untuk melanjutkan proses.";
+"withdraw.idr.popUp.deleteConfirmationDesc" = "Hapus alamat penarikan?";
+
+
+"wd.idr.selectBank" = "Pilih Bank";
+"wd.idr.searchBank" = "Cari Bank...";
+"wd.idr.bank" = "Bank";
+"wd.idr.accountNumber" = "Nomor Rekening";
+"wd.idr.accountNumberPlaceholder" = "1234567890";
+"wd.idr.labelAccount" = "Label Akun";
+"wd.idr.labelAccountPlaceholder" = "Contoh: Akun BCA, Akun OVO...";
+"wd.idr.attention" = "Mohon Perhatian";
+"wd.idr.addBankAccount" = "Tambah Akun Bank";
+"wd.idr.attentionBankInfo" = "Nama di rekening harus sama dengan nama akun INDODAX.";
+"wd.idr.accountNumberInfo" = "Gunakan rekening atas nama %@";
+
+"wd.idr.ewallet" = "E-Wallet";
+"wd.idr.selectEwallet" = "Pilih E-Wallet";
+"wd.idr.searchEwallet" = "Cari Ewallet...";
+"wd.idr.registeredPhoneNumber" = "Nomor HP Terdaftar";
+"wd.idr.attentionEwalletInfo" = "Pastikan nomor ponsel Anda sudah terdaftar di %@ sebelum melanjutkan. INDODAX tidak bertanggung jawab atas kesalahan apapun.";
+
+"wd.idr.selectMoneyOrder" = "Pilih Wesel";
+"wd.idr.searchMoneyOrder" = "Cari Wesel...";
+
+"wd.idr.transactionDetails" = "Detail Transaksi";
+"wd.idr.withdrawDestination" = "Tujuan Penarikan";
+"wd.idr.serviceFee" = "Biaya Layanan";
+"wd.idr.smsFee" = "Biaya SMS";
+"wd.idr.smsFeeInfo" = "(Untuk bebas biaya SMS, aktifkan Google Authenticator)";
+"wd.idr.receivedAmount" = "Total Diterima";
+
+"wd.idr.rupiahIdr" = "Rupiah (IDR)";
+"wd.idr.withdrawConfirm" = "Konfirmasi Penarikan";
+
+// END
+
+// MARK: - Transaction History List IDR
+"wallet.transactionHistoryList.cell.depositIDRDesc" = "Setor IDR di %@";
+"wallet.transactionHistoryList.cell.withdrawIDRDesc" = "Tarik IDR di %@";
+"wallet.transactionHistoryList.cell.generateVoucherDesc" = "Generate di %@";
+"wallet.transactionHistoryList.cell.redeemVoucherDesc" = "Redeem di %@";
+
+"general.label.attention" = "Perhatian!";
+"general.label.status" = "Status";
+"general.label.chooseOptions" = "Pilih Opsi";
+"general.label.emptyData" = "Data kosong";
+"general.btn.close" = "Tutup";
+"general.btn.tryAgain" = "Coba Lagi";
+"general.btn.continue" = "Lanjut";
+"general.btn.clickHere" = "klik di sini";
+"general.btn.buy" = "Beli";
+"general.btn.reset" = "Reset";
+"general.btn.confirmation" = "Konfirmasi";
+"general.btn.back" = "Kembali";
+"general.btn.start" = "Mulai";
+"general.btn.cancel" = "Batalkan";
+"general.btn.next" = "Lanjut";
+"general.btn.photo.save" = "Simpan";
+"general.btn.photo.retake" = "Foto Ulang";
+"general.btn.agree.send" = "Setuju & kirim";
+"general.btn.save" = "Simpan";
+"general.btn.next2" = "Selanjutnya";
+"general.btn.next3" = "Selanjutnya";
+"general.btn.send" = "Kirim";
+"general.btn.iunderstand" = "Saya Mengerti";
+"general.btn.save.changes" = "Simpan";
+"general.btn.done" = "Selesai";
+"general.btn.yes" = "Oke";
+"general.on" = "ON";
+"general.off" = "OFF";
+
+"account.general.gender.text" = "Jenis Kelamin";
+"account.general.gender.placeholder" = "Pilih jenis kelamin";
+"account.general.gender.male" = "Laki-laki";
+"account.general.gender.female" = "Perempuan";
+"account.general.job.text" = "Pekerjaan";
+"account.general.job.placeholder" = "Pilih Pekerjaan";
+"account.general.aboutIndodax" = "Seputar INDODAX";
+"account.general.desc.settingSheet" = "Fitur ini membutuhkan koneksi yang baik dan berpengaruh ke penggunaan data serta baterai";
+"account.general.appSettings" = "Pengaturan Aplikasi";
+"account.general.withdrawLimit" = "Limit Penarikan Harian";
+"account.general.management.next" = "Setuju";
+"account.general.management.cancel" = "Batalkan";
+"account.general.management.email.title" = "Alamat Email";
+"account.general.management.phone.number.title" = "Nomor Handphone";
+"account.general.contact.us" = "Hubungi Kami";
+"account.general.logout" = "Keluar";
+"account.general.activate.feature" = "Aktifkan fitur";
+"account.general.deactivate.feature" = "Matikan fitur";
+"account.general.installation.instruction" = "Lihat Cara Instalasi";
+
+// MARK: - Account
+"account.kyc.intro.title" = "Verifikasi Akun";
+"account.kyc.intro.description" = "Untuk menjaga keamanan transaksi dari penipuan uang atau akun palsu, ayo mulai verifikasi akun";
+"account.kyc.intro.btn.verify" = "Mulai Verifikasi";
+"account.kyc.intro.btn.later" = "Nanti Saja";
+
+// MARK: - KYC Dialog
+
+"kyc.alert.dialog.not.verified.title" = "Verifikasi Akun Anda";
+"kyc.alert.dialog.not.verified.description" = "Selesaikan proses verifikasi untuk dapat melakukan perubahan data serta transaksi di Indodax";
+"kyc.alert.dialog.not.verified.positive.btn.title" = "Verifikasi Sekarang";
+
+"kyc.alert.dialog.pending.verification.title" = "Data Sedang diproses";
+"kyc.alert.dialog.pending.verification.description" = "Maaf, saat ini Anda belum dapat melakukan jual beli aset kripto. Kami akan memproses verifikasi selambat-lambatnya dalam 1 x 24 jam setelah aplikasi Kami terima.";
+
+"account.photo.max.file.size" = "Maksimal ukuran file 3MB";
+
+"account.kyc.summary.menu.1" = "Kartu Identitas";
+"account.kyc.summary.menu.2" = "Data Pribadi";
+"account.kyc.summary.menu.3" = "Deteksi Wajah";
+
+"account.kyc.summary.header.title" = "Verifikasi Identitas";
+"account.kyc.summary.header.description" = "Lengkapi langkah-langkah di bawah ini";
+
+"account.kyc.nationality.header.title" = "Pilih Kewarganegaraan";
+"account.kyc.nationality.info.label" = "Pilih status kewarganegaraan berdasarkan kartu identitas";
+"account.kyc.nationality.textfield.title" = "Kewarganegaraan";
+"account.photo.camera.wni.nav.title" = "Ambil foto KTP";
+"account.photo.camera.wna.nav.title" = "Ambil foto paspor";
+"account.photo.view.nav.title" = "Foto Kartu Identitas";
+"account.photo.view.text.lifetime" = "Seumur Hidup";
+"account.photo.view.text.idcard" = "Foto Identitas";
+"account.photo.view.text.error.idEmpty" = "NIK harus di isi";
+"account.photo.view.text.error.expiryEmpty" = "Masa berlaku harus di isi";
+
+"account.management.delete.success.title" = "Berhasil Hapus Akun";
+"account.management.delete.success.description" = "Anda akan otomatis keluar dari akun dan diarahkan ke beranda.";
+"account.management.delete.confirmation.positive" = "Setuju & Hapus Akun";
+"account.management.delete.reason.title" = "Pilih salah satu alasan mengapa hapus akun";
+"account.management.delete.reason.page.title" = "Alasan Hapus Akun";
+"account.management.delete.other.reason.title" = "Alasan Hapus Akun";
+"account.management.delete.reason.withdraw" = "Banyak masalah deposit/withdraw";
+"account.management.delete.reason.exchange" = "Pindah exchange kripto lain";
+"account.management.delete.reason.other.account" = "Sudah punya akun indodax lain";
+"account.management.delete.reason.other" = "Lainnya";
+"account.management.delete.introduction.terms.title" = "Ketentuan Hapus Akun";
+"account.management.asset.alert.title" = "Tunggu, masih ada sisa aset";
+"account.management.asset.alert.description" = "Sebelum hapus akun, periksa kembali aset yang tersimpan di dalam akun.";
+"account.management.asset.alert.positive" = "Tarik Aset Tersisa";
+"account.management.asset.alert.negative" = "Lanjut hapus Akun";
+"account.management.delete.attention" = "Sistem akan memproses penghapusan akun Anda setelah Anda menekan tombol \"Setuju dan Hapus Akun\"";
+"account.management.delete.confirmation.title" = "Konfirmasi Hapus Akun";
+"account.management.delete.check" = "Cek kembali keterangan akun yang akan dihapus";
+"account.management.recovery.title" = "Selamat Datang Kembali";
+"account.management.recovery.description" = "Akun Anda saat ini dalam keadaan tidak aktif. Apakah Anda ingin mengaktifkan akun kembali?";
+"account.management.recovery.btn.title" = "Pulihkan Akun";
+"account.management.recovery.success.title" = "Akun berhasil dipulihkan";
+"account.management.recovery.success" = "Pemulihan akun berhasil dilakukan. Sekarang Anda dapat menggunakan akun seperti semula";
+"account.security.two.factor.authentification" = "Keamanan Autentikasi Dua Faktor (2FA)";
+"account.security.change.password" = "Ubah Kata Sandi";
+"account.security.change.pin" = "Ubah PIN";
+"account.security.delete.account" = "Hapus Akun";
+"account.security.device.session" = "Sesi Perangkat";
+"account.security.setup.gauth" = "Google Authenticator";
+"account.security.setup.gauth.description.title" = "Apa itu Google Authenticator?";
+"account.security.setup.gauth.description" = "Google Authenticator adalah sebuah aplikasi yang berguna untuk memperkuat keamanan akun anda dari serangan pencuri atau hacker. Aplikasi ini akan menghasilkan PIN yang akan selalu berubah dari waktu ke waktu.";
+"account.security.setup.gauth.deactivated.description.title" = "Apakah yakin mau mematikan fitur Google Authenticator?";
+"account.security.setup.gauth.deactivated.description" = "Mematikan fitur Google Authenticator akan  beresiko melemahkan proteksi akses ke akun Indodax dari akun luar yang tidak resmi.";
+"account.security.setup.gauth.reasons.title" = "Mengapa harus menggunakan Google Authenticator?";
+"account.security.setup.gauth.reason.protection" = "Melindungi akun dari peretasan";
+"account.security.setup.gauth.reason.enhancement" = "Meningkatkan keamanan";
+"account.security.setup.gauth.reason.easy" = "Mudah digunakan";
+"account.security.setup.gauth.reason.mobility" = "Bisa di-install di Android, iPhone, iPad dan komputer/laptop";
+"account.security.setup.gauth.reason.cost" = "Mencegah biaya SMS setiap melakukan penarikan";
+"account.security.setup.gauth.qr.instruction" = "Harap gunakan aplikasi Google Authenticator anda untuk memindai kode QR ini";
+"account.security.setup.gauth.code.instruction" = "Atau Masukkan kode ini ke Google Authenticator anda";
+"account.security.setup.gauth.active.title" = "Google Authenticator sudah aktif";
+"account.security.setup.gauth.success.title" = "Google Authenticator berhasil dimatikan";
+"account.security.setup.gauth.preparation.title" = "Siapkan Google Authenticator";
+"account.security.setup.gauth.success" = "Demi keamanan transaksi Anda, PIN Google Authenticator diperlukan setiap kali login atau melakukan penarikan dana.";
+
+"account.textfield.nik.title" = "NIK";
+"account.textfield.nik.placeholder" = "Masukkan NIK";
+"account.textfield.passport.title" = "Passport Number";
+"account.textfield.expiry.title" = "Masa Berlaku Sampai";
+"account.textfield.expiry.placeholder" = "01-09-2017";
+
+"account.personal.data.navigation.title" = "Data pribadi";
+"account.personal.data.menu.1" = "Pribadi";
+"account.personal.data.menu.2" = "Alamat";
+"account.personal.data.menu.3" = "Relasi";
+"account.personal.data.menu.4" = "Finansial";
+"account.personal.error.fillAt" = "Mohon isi data kosong di %@";
+
+"account.personal.info.name.title" = "Nama lengkap";
+"account.personal.info.name.placeholder" = "Masukkan nama lengkap";
+"account.personal.info.birthplace.title" = "Tempat lahir";
+"account.personal.info.birthplace.placeholder" = "Masukkan tempat lahir";
+"account.personal.info.dob.title" =  "Tanggal lahir";
+"account.personal.info.dob.placeholder" = "Pilih tanggal lahir";
+"account.personal.info.motherName.title" = "Nama ibu kandung";
+"account.personal.info.motherName.placeholder" = "Masukkan nama ibu kandung";
+
+"account.personal.info.error.fullname" = "Nama lengkap harus diisi";
+"account.personal.info.error.birthplace" = "Tempat lahir harus diisi";
+"account.personal.info.error.dob" = "Tanggal lahir harus diisi";
+"account.personal.info.error.gender" = "Jenis kelamin harus diisi";
+"account.personal.info.error.profession" = "Pekerjaan harus diisi";
+"account.personal.info.error.motherName" = "Nama ibu kandung harus diisi";
+
+"account.relation.text.relative.name.title" = "Nama Kerabat";
+"account.relation.text.relative.name.placeholder" = "Masukkan nama kerabat";
+"account.relation.text.relative.relation.title" = "Hubungan Kerabat";
+"account.relation.text.relative.relation.placeholder" = "Pilih Hubungan Kerabat";
+"account.relation.text.relative.phone.title" = "Nomor Handphone Kerabat";
+"account.relation.text.relative.phone.placeholder" = "8123456789";
+
+"account.relation.text.relative.sheet.navigation.title" = "Relationship";
+
+"account.relation.error.relative.name" = "Nama kerabat harus diisi";
+"account.relation.error.relative.relation" = "Hubungan kerabat harus diisi";
+"account.relation.error.relative.phone" = "Nomor telepon harus diisi";
+
+// MARK: - LostViewController
+"account.lost.ga.title" = "Alamat Email";
+"account.lost.ga.placeholder" = "";
+"account.lost.phone.phonenumber.title" = "Nomor Handphone Baru";
+"account.lost.phone.phonenumber.placeholder" = "81234567890";
+"account.lost.ga.phonenumber.placeholder" = "081234567890";
+// MARK: - End LostViewController
+"account.financial.text.yearly.title" = "Pendapatan per Tahun";
+"account.financial.text.yearly.placeholder" = "Pilih";
+"account.financial.text.fundsource.title" = "Sumber Dana";
+"account.financial.text.fundsource.placeholder" = "Pilih";
+"account.financial.text.opening.title" = "Tujuan Akun";
+"account.financial.text.opening.placeholder" = "Pilih";
+"account.financial.text.tradingbudget.title" = "Anggaran Trading Bulanan";
+"account.financial.text.tradingbudget.placeholder" = "Pilih";
+"account.financial.text.owner.title" = "Pemegang Akun";
+"account.financial.text.owner.placeholder" = "Pilih";
+
+"account.financial.error.yearly" = "Pendapatan per tahun harus diisi";
+"account.financial.error.fundsource" =  "Sumber dana harus diisi";
+"account.financial.error.opening" = "Tujuan akun harus diisi";
+"account.financial.error.tradingbudget" =  "Anggaran trading bulanan harus diisi";
+"account.financial.error.owner" =  "Pemegang akun harus diisi";
+
+"account.address.text.postal.title" = "Kode Pos";
+"account.address.text.postal.placeholder" = "Masukkan kode pos";
+"account.address.text.country.title" = "Negara";
+"account.address.text.country.placeholder" = "Pilih negara";
+"account.address.text.address.title" = "Detail Alamat";
+"account.address.text.province.title" = "Provinsi";
+"account.address.text.province.placeholder" = "Pilih provinsi";
+"account.address.text.city.title" = "Kota";
+"account.address.text.city.placeholder" = "Pilih kota";
+
+"account.address.error.country" = "Negara harus diisi";
+"account.address.error.address" = "Detail alamat harus diisi";
+"account.address.error.province" = "Provinsi harus diisi";
+"account.address.error.city" = "Kota harus diisi";
+"account.address.error.postal" = "Kode pos harus diisi";
+
+"account.terms.navigation.title" = "Syarat & Ketentuan";
+"account.terms.agreement.description" = "Saya mengetahui dan setuju atas semua data yang telah diserahkan akan disimpan oleh PT Indodax Nasional Indonesia (Perusahaan) dan saya mengizinkan Perusahaan untuk mengelola dan atau menggunakan data tersebut untuk kepentingan Perusahaan";
+
+"account.kyc.data.submitted" = "Data verifikasi terkirim";
+"account.kyc.data.text.description" = "Permohonan verifikasi Anda sedang dalam peninjauan, harap tunggu dalam 1x24 jam.";
+"account.kyc.btn.explore" = "Jelajahi aplikasi";
+
+"account.kyc.liveness.dialog.title" = "Tes Deteksi Wajah";
+"account.kyc.liveness.dialog.description.1" = "• Untuk kebutuhan verifikasi, wajah anda akan direkam";
+"account.kyc.liveness.dialog.description.2" = "• Harap lepaskan aksesoris (kacamata, masker dan lainnya.)";
+"account.kyc.liveness.dialog.description.3" = "• Mohon ikuti arahan gerakan";
+"account.kyc.dialog.btn.title" = "Mulai Tes Sekarang";
+
+"account.kyc.camera.rules" = " • Ambil foto tampilan depan Kartu Identitas\n\n • Pastikan semua bagian Kartu Identitas dan tulisan terlihat jelas\n\n • Kartu identitas tidak boleh melewati batas tanggal berlaku";
+
+"account.country.blocked" = "Maaf, negara anda tidak terdaftar";
+"account.country.indonesia" = "Indonesia";
+"account.country.outOfIndonesia" = "Outside of Indonesia";
+
+"account.liveness.review.success.title" = "Deteksi wajah berhasil";
+"account.liveness.review.error.title" = "Deteksi wajah gagal";
+"account.liveness.review.success.description" = "Hore! Anda berhasil melewati Tes Deteksi Wajah, silahkan lanjut ke tahap berikutnya.";
+"account.liveness.review.error.description" = "Anda gagal melewati Tes Deteksi Wajah. Mohon tes ulang, klik tombol di bawah ini:";
+"account.liveness.review.btn.retake" = "Tes Ulang";
+
+"account.kyc.confirm.nav.title" = "Konfirmasi Data";
+"account.kyc.confirm.btn.next" = "Konfirmasi";
+
+"account.kyc.dialog.text.headline" = "Batalkan Verifikasi?";
+"account.kyc.dialog.text.description" = "Jika kamu keluar halaman verifikasi tanpa menyelesaikan proses, data kamu akan tetap tersimpan.";
+"account.kyc.dialog.text.button.continue" = "Lanjutkan verifikasi";
+"account.kyc.dialog.text.button.cancel" = "Ya, Batalkan";
+
+"account.kyc.dialog.ocr.error.title" = "Gagal membaca ID";
+"account.kyc.dialog.ocr.error.description" = "Sistem kami tidak membaca ID Anda. Silakan ambil foto lagi.";
+
+"account.country.nav.title" = "Kewarganegaraan";
+"account.country.btn.choose" = "Pilih";
+"account.country.text.countrychosen" = "Negara";
+"account.country.text.search" = "Cari negara";
+"account.btn.login" = "Masuk";
+"account.btn.signin" = "Masuk";
+"account.btn.understand" = "Saya Mengerti";
+"account.change.password.title" = "Masukkan kata sandi yang Anda gunakan saat ini";
+"account.delete.reason.error" = "Tolong isi alasan hapus Akun";
+
+"account.dialog.referral.title" = "Referral Program";
+"account.dialog.referral.desc" = "Referral Program akan hadir sebentar lagi di aplikasi Indodax. Anda dapat memantau Referral Program melalui website Indodax.";
+
+/// Login
+"login.info.title" = "Masukan email yang terdaftar pada akun Indodax";
+"login.email.title" = "Alamat email";
+"login.password.title" = "Kata sandi";
+"login.forgot.password.title" = "Lupa Kata Sandi";
+"login.navigation.title" = "Masuk Akun";
+"login.button.understand" = "Saya Mengerti";
+"login.register.attribute" = "Belum punya akun? ";
+"login.register.cta" = "Daftar Sekarang";
+
+"login.error.empty.email" = "Email harus diisi";
+"login.error.empty.password" = "Password harus diisi";
+"login.error.format.email" = "Format email salah";
+"login.error.popup.title" = "Perhatian!";
+
+/// Profile
+"profile.general.reason.title" = "Alasan Penggantian";
+"profile.general.reason.placeholder" = "Masukkan alasan penggantian";
+"profile.general.additional.reason.placeholder" = "Tulis alasan penggantian";
+"profile.general.dialog.reason.title" = "Pilih Alasan Penggantian";
+"profile.general.dialog.reason.expired" = "Nomor hangus";
+"profile.general.dialog.reason.lost" = "Nomor hilang";
+"profile.general.dialog.reason.abroad" = "Ke luar negeri";
+"profile.general.dialog.reason.not.receive.messsage" = "Nomor tidak bisa mendapatkan sms";
+"profile.general.dialog.reason.other" = "other";
+"profile.success.page.navigation.title" = "Data berhasil terkirim!";
+"profile.success.page.info.label" = "Kami telah menerima permintaan perubahan data Anda. Mohon tunggu proses verifikasi yang akan selesai dalam kurun waktu 1×24 jam";
+
+"profile.alert.dialog.pending.title" = "Perubahan data profil belum dapat dilakukan";
+"profile.alert.dialog.pending.description" = "Perubahan data Anda sebelumnya masih dalam verifikasi. Tunggu proses verifikasi selesai untuk melakukan perubahan lainnya";
+
+"profile.alert.dialog.pending.kyc.title" = "Data sedang diproses";
+"profile.alert.dialog.pending.kyc.description" = "Maaf, saat ini Anda belum dapat melakukan jual beli aset kripto. Kami akan memproses verifikasi selambat-lambatnya dalam 1 x 24 jam setelah aplikasi Kami terima.";
+
+"profile.myprofile.navigation.title" = "Profil Saya";
+"profile.myprofile.verification.status.not.verified" = "Belum Terverifikasi";
+"profile.myprofile.verification.status.verified" = "Terverifikasi";
+"profile.myprofile.profile.info.title" = "Info Profil";
+"profile.myprofile.profile.info.name.title" = "Nama Lengkap";
+"profile.myprofile.profile.info.username.title" = "Username";
+"profile.myprofile.profile.info.username.copy" = "Username berhasil disalin";
+"profile.myprofile.profile.info.btn.set.username" = "Atur Username";
+"profile.myprofile.personal.data.title" = "Informasi Pribadi";
+"profile.myprofile.personal.data.desc" = "Informasi ini rahasia. Hanya Anda yang dapat melihatnya dan tidak dibagikan ke siapa pun.";
+"profile.myprofile.personal.data.email.title" = "Email";
+"profile.myprofile.personal.data.phone.title" = "Nomor Handphone";
+"profile.myprofile.personal.data.address.title" = "Alamat";
+"profile.myprofile.personal.data.npwp.title" = "Nomor NPWP";
+"profile.myprofile.personal.data.emergency.title" = "Kontak Darurat";
+
+"profile.edit.profile.photo.navigation.title" = "Foto Profil";
+"profile.edit.profile.photo.btn.title" = "Ganti Foto Profil";
+"profile.edit.profile.photo.btn.camera" = "Ambil Gambar";
+"profile.edit.profile.photo.btn.gallery" = "Pilih dari Galeri";
+"profile.edit.profile.photo.btn.delete" = "Hapus Foto Profil";
+"profile.edit.profile.photo.dialog.btn.delete" = "Hapus";
+"profile.edit.profile.photo.dialog.btn.back" = "Kembali";
+"profile.edit.profile.photo.dialog.discard.title" = "Batalkan perubahan foto?";
+"profile.edit.profile.photo.adjust.navigation.title" = "Move & Scale";
+"profile.edit.profile.photo.snackbar.success" = "Foto profil berhasil diperbarui!";
+"profile.edit.profile.snackbar.error" = "Ukuran foto terlalu besar.";
+"profile.take.photo.navigation.title" = "Ambil Gambar";
+"profile.take.photo.retake.btn.title" = "Foto Ulang";
+"profile.take.photo.use.btn.title" = "Gunakan Foto";
+
+"profile.edit.username.navigation.title" = "Atur Username";
+"profile.edit.username.body.title" = "Gunakan @username untuk mempermudah pengguna lain mengirim kripto kepada Anda.";
+"profile.edit.username.dbg.label.active" = "Username hanya bisa diubah 1 kali.";
+"profile.edit.username.dbg.label.min.character" = "Minimum 4 karakter.";
+"profile.edit.username.dbg.label.already.taken" = "Username ini sudah dipakai orang lain.";
+"profile.edit.username.dbg.label.error.format" = "Hanya boleh huruf, angka, “_”, dan “-”";
+"profile.edit.username.snackbar.success" = "Username berhasil diperbarui!";
+
+"profile.edit.email.navigation.title" = "Ubah Email";
+"profile.edit.email.info.label" = "Pastikan email aktif agar akun Anda aman";
+"profile.edit.email.new.email.title" = "Email Baru";
+"profile.edit.email.confirm.email.title" = "Konfirmasi Email Baru";
+"profile.edit.email.error.format.email" = "Format email yang dimasukkan tidak sesuai.";
+"profile.edit.email.error.email.not.match" = "Konfirmasi Email tidak sama dengan Email baru.";
+
+"profile.edit.primary.number.navigation.title" = "Ubah Nomor Utama";
+"profile.edit.primary.number.info.label" = "Pastikan nomor hp anda aktif agar akun Anda aman";
+"profile.edit.primary.number.new.number.title" = "Nomor HP Baru";
+"profile.edit.primary.number.snackbar.success" = "Nomor Utama berhasil diperbarui!";
+
+"profile.edit.address.navigation.title" = "Ubah Alamat";
+"profile.edit.address.info.label" = "Pastikan alamat anda sesuai dengan kartu identitas";
+"profile.edit.address.registered.address.title" = "Alamat terdaftar";
+"profile.edit.address.new.address.title" = "Alamat baru";
+"profile.edit.address.province.title" = "Provinsi";
+"profile.edit.address.province.placeholder" = "Pilih Provinsi";
+"profile.edit.address.city.title" = "Kota";
+"profile.edit.address.city.placeholder" = "Pilih Kota";
+"profile.edit.address.postal.code.title" = "Kode Pos";
+"profile.edit.address.snackbar.success" = "Alamat berhasil diperbarui!";
+
+"profile.edit.npwp.navigation.title" = "Ubah Nomor NPWP";
+"profile.edit.npwp.info.label" = "Pastikan nomor NPWP anda sesuai agar akun anda aman";
+"profile.edit.npwp.number.npwp.title" = "Nomor NPWP";
+"profile.edit.npwp.registered.npwp.title" = "Nomor NPWP Terdaftar";
+"profile.edit.npwp.new.npwp.title" = "Nomor NPWP Baru";
+"profile.edit.npwp.snackbar.success" = "Nomor NPWP berhasil diperbarui!";
+
+"profile.emergency.number.about.navigation.title" = "Tentang Kontak Darurat";
+"profile.emergency.number.what.title" = "Apa?";
+"profile.emergency.number.what.description" = "Kami menganjurkan Anda untuk meninjau informasi untuk Kontak Darurat yang telah Anda sertakan di akun Anda. Jika Anda belum menetapkan Kontak Darurat di akun Anda, sebaiknya saat ini.";
+"profile.emergency.number.why.title" = "Mengapa?";
+"profile.emergency.number.why.description" = "Kontak Darurat adalah seseorang yang berusia 18 tahun atau lebih yang Anda beri wewenang kepada kami untuk menghubungi mengenai akun Anda, khususnya jika kami menduga bahwa akun Anda dapat mengalami eksploitasi keuangan atau kami memiliki kekhawatiran tentang status kesehatan Anda. Pelanggan yang berusia lanjut yang dapat mengalami penurunan kemampuan kognitif atau masalah kesehatan mungkin ingin menetapkan Kontak Darurat di akun mereka, tetapi menetapkan Kontak Darurat di akun Anda juga berguna karena alasan lain.";
+"profile.emergency.number.what.can.title" = "Apa yang bisa saya lakukan?";
+"profile.emergency.number.what.can.description" = "Jika Anda ingin mengedit Kontak Darurat di akun Anda, Anda dapat memberikan informasi mereka dengan mengklik Lanjutkan di bawah. Harap cantumkan hanya orang yang dapat dihubungi yang berusia di atas 18 tahun.";
+"profile.emergency.number.btn.title" = "Saya Mengerti";
+
+"profile.edit.emergency.number.navigation.title" = "Ubah Kontak Darurat";
+"profile.edit.emergency.number.info.label" = "Pastikan kontak darurat aktif dan dapat dihubungi agar akun Anda aman";
+"profile.edit.emergency.number.full.name.title" = "Nama Lengkap";
+"profile.edit.emergency.number.full.name.placeholder" = "Nama lengkap kontak darurat";
+"profile.edit.emergency.number.relationship.title" = "Hubungan kerabat";
+"profile.edit.emergency.number.relationship.placeholder" = "Pilih hubungan kerabat";
+"profile.edit.emergency.number.relative.number.title" = "Nomor HP kerabat";
+"profile.edit.emergency.number.snackbar.success" = "Kontak darurat berhasil diperbarui!";
+
+/// Forgot Password
+"account.forgotpassword.navigation.title" = "Lupa Kata Sandi";
+"account.forgotpassword.title" = "Masukkan alamat email yang Anda gunakan untuk menerima kode verifikasi";
+"account.forgotpassword.submit" = "Buat Sandi Baru";
+
+/// Create Password
+"account.createpassword.title" = "Buat Kata Sandi baru";
+"account.createpassword.info" = "Masukkan kata sandi baru untuk menggantikan kata sandi lama Anda";
+"account.createpassword.submit" = "Ubah Kata Sandi";
+"account.createpassword.dialog.info.description1" = "Gunakan kata sandi yang kuat";
+"account.createpassword.dialog.info.description2" = "Jangan gunakan kata sandi yang sama dengan website lain";
+"account.createpassword.dialog.info.description3" = "Akun Indodax otomatis akan keluar di semua perangkat jika kamu mengubah kata sandi";
+"account.createpassword.confirmation.label" = "Konfirmasi Kata Sandi";
+
+// Password change
+"account.password.change.navigation.title" = "Kata Sandi Berhasil Diubah";
+"account.password.change.description" = "Anda berhasil mengubah kata sandi. Gunakan kata sandi baru untuk mengakses akun Anda";
+"account.suspended.navigation.title" = "Akun Terkunci";
+"account.suspended.description" = "Setelah melakukan perubahan kata sandi, akun Anda akan terkunci. Untuk mengakses kembali akun Anda, lakukan verifikasi melalui kode OTP yang kami kirimkan";
+"account.suspended.button.title" = "Kirim Kode Verifikasi";
+
+/// Account View
+"account.menu.personalSettings" = "Pengaturan Personal";
+"account.menu.accountSecurity" = "Keamanan Akun";
+"account.menu.pushNotification" = "Push Notification";
+"account.menu.referralProgram" = "Referral Program";
+"account.menu.customerService" = "Layanan Pelanggan";
+"account.menu.contactUs" = "Hubungi Kami";
+"account.menu.liveChat" = "Live Chat";
+"account.menu.logout" = "Keluar Akun";
+"account.section.helpCenter.title" = "Pusat Bantuan";
+"account.btn.register" = "Daftar";
+"account.title" = "Pengaturan Akun";
+"account.dialog.rejectedKYC.title" = "Data diri Anda ditolak";
+"account.dialog.rejectedKYC.firstText" = "Aplikasi verifikasi Anda telah ditolak dengan alasan: \n\n";
+"account.dialog.rejectedKYC.listItem.blurryID" = "Informasi KTP pada foto buram";
+"account.dialog.rejectedKYC.listItem.nameNotMatch" = "Nama lengkap tidak sesuai KTP";
+"account.dialog.rejectedKYC.listItem.selfPotraitBlurry" = "Foto diri buram";
+"account.dialog.rejectedKYC.listItem.selfieTooClose" = "Foto selfie KTP terlalu dekat";
+"account.dialog.rejectedKYC.lastText" = "\n Anda dapat mememperbaiki dan mengirim kembali data diri Anda supaya dapat diproses.";
+"account.btn.restartVerification" = "Verifikasi Ulang";
+"account.dialog.btn.back" = "Kembali";
+"account.kycbox.btn.verifyNow" = "Verifikasi Sekarang";
+"account.kycbox.title.notVerified" = "Verifikasi Akun Anda";
+"account.kycbox.desc.notVerified" = "Transaksi dapat dilakukan setelah Anda melakukan verifikasi.";
+"account.kycbox.title.waitingVerification" = "Verifikasi Akun Diproses";
+"account.kycbox.desc.waitingVerification" = "Permohonan verifikasi Anda sedang dalam peninjauan, harap tunggu dalam 1x24 jam.";
+"account.kycbox.title.verificationRejected" = "Verifikasi Akun Ditolak";
+"account.kycbox.desc.verificationRejected" = "Maaf, permohonan verifikasi akun Anda ditolak. Harap ulangi proses verifikasi akun Anda.";
+"account.pillView.verified" = "Terverifikasi";
+"account.pillView.notVerified" = "Belum Terverifikasi";
+"account.dialog.logout.title" = "Apakah Anda ingin keluar akun?";
+"account.dialog.withdrawLimit.desc" = "Limit Withdraw Harian akan hadir sebentar lagi di aplikasi Indodax. Saat ini Anda dapat mengajukan Limit Withdraw Harian melalui website Indodax.";
+"account.dialog.withdrawLimit.btn.dailyLimit" = "Apa itu Kenaikan Limit Harian?";
+"account.dialog.invalid.password.title" = "Ulangi kata sandi";
+"account.dialog.invalid.password.description" = "Kata sandi yang dimasukan salah, silahkan ketik ulang kata sandi";
+"account.dialog.create.password.info.title" = "Peringatan Ubah Kata Sandi";
+"account.dialog.create.password.failed.title" = "Cek ulang kata sandi";
+"account.dialog.create.password.failed.description" = "Kata sandi tidak sama, silahkan ketik ulang kata sandi";
+
+/// About Indodax
+"account.about.menu.aboutUs" = "Tentang Kami";
+"account.about.menu.tnc" = "Syarat dan Ketentuan";
+"account.about.menu.privacyPolicy" = "Kebijakan Privasi";
+"account.about.menu.appReview" = "Ulas Aplikasi";
+"account.about.menu.facebook" = "Facebook";
+"account.about.menu.twitter" = "Twitter";
+"account.about.menu.youtube" = "Youtube";
+"account.about.menu.instagram" = "Instagram";
+"account.about.menu.linkedin" = "Linkedin";
+"account.about.menu.telegram" = "Telegram";
+"account.about.menu.discord" = "Discord";
+"account.about.section.followUs.title" = "Ikuti Kami di";
+"account.about.desc.appVersion" = "Versi %@";
+
+/// App Settings
+"account.settings.menu.widget" = "Widget";
+"account.settings.menu.language" = "Bahasa";
+"account.settings.menu.backgroundTimer" = "Background Timer";
+"account.settings.menu.realtimeMarket" = "Realtime Market";
+"account.settings.menu.InstallationID" = "Installation ID";
+"account.settings.sheet.title.changeLanguage" = "Ganti Bahasa";
+"account.settings.sheet.headline.activateTimer" = "Aktifkan Background Timer?";
+"account.settings.sheet.action.activate" = "Aktifkan";
+"account.settings.sheet.headline.deactivateTimer" = "Matikan Background Timer?";
+"account.settings.sheet.desc.deactivateTimer" = "Menonaktifkan Background Timer akan mematikan semua fitur alarm dan widget Anda.";
+"account.settings.sheet.action.deactivate" = "Matikan";
+"account.settings.sheet.headline.activateRealtimeMarket" = "Aktifkan Realtime Market?";
+"account.settings.sheet.headline.deactivateRealtimeMarket" = "Matikan Realtime Market?";
+"account.settings.sheet.desc.deactivateRealtimeMarket" = "Menonaktifkan Realtime Market akan mematikan fitur realtime data pada market";
+"account.settings.languages.title.id" = "Bahasa";
+"account.settings.languages.title.en" = "English";
+"account.settings.message.installationIdCopied" = "Installation ID berhasil tersalin";
+
+/// Register Account
+"register.navigation.title" = "Register Account";
+"register.text.infolabel" = "Gunakan email dan nomor telepon untuk mendaftar";
+"register.text.email.title" = "Alamat email";
+"register.text.email.placeholder" = "Masukkan email";
+"register.text.phone.title" = "Nomor HP";
+"register.text.phone.placeholder" = "Masukkan nomor hp";
+"register.text.password.title" = "Kata Sandi";
+"register.text.password.placeholder" = "Masukkan kata sandi";
+"register.btn.eighthChar" = "8+ Karakter";
+"register.btn.uppercase" = "1 huruf besar";
+"register.btn.lowercase" = "1 huruf kecil";
+"register.btn.specialChar" = "simbol atau angka";
+"register.btn.register" = "Buat Akun";
+"register.text.termsCondition" = "Syarat & Ketentuan";
+"register.text.older" = "Saya berusia 18 tahun atau lebih dan setuju dengan %@";
+"register.text.error.email.empty" = "Email harus diisi";
+"register.text.error.email.format" = "Format email salah";
+"register.text.error.phone.empty" = "Nomor hp harus diisi";
+"register.text.error.phone.format" = "Nomor hp harus angka";
+"register.text.error.password.empty" = "password harus diisi";
+
+
+"general.history" = "History";
+"general.buy" = "Beli";
+"general.sell" = "Jual";
+"general.other" = "History";
+"general.understand" = "Saya mengerti";
+"general.favorite" = "Favorit";
+"general.idr" = "IDR";
+"general.usdt" = "USDT";
+"general.btc" = "BTC";
+"general.limit.order" = "Limit Order";
+"general.market.order" = "Market Order";
+"general.market.title" = "Market";
+"general.save" = "Simpan";
+"general.balance" = "Saldo:";
+"general.back" = "Kembali";
+"general.next" = "Selanjutnya";
+"general.login" = "Masuk";
+"general.register" = "Daftar";
+"general.noData" = "Tidak Ada Data";
+
+"general.price" = "Price";
+"general.cancel.all" = "Batalkan Semua";
+"general.cancel" = "Batalkan";
+
+// MARK: - Authentication
+/// PIN
+"pin.navigation.title.verify" = "Masukkan PIN Anda";
+"pin.navigation.title.create.pin" = "Buat PIN";
+"pin.navigation.title.confirm.create.pin" = "Ulangi PIN";
+"pin.navigation.insert.existing.pin" = "Masukkan PIN Saat Ini";
+"pin.insert.existing.pin.description" = "Masukkan 6-digit kode PIN";
+"pin.button.forgot" = "Lupa PIN";
+"pin.navigation.title.repin" = "Ulangi PIN";
+"pin.description.insertNew" = "Buat 6 digit PIN untuk keamanan akun Anda";
+"pin.description.repin" = "Ulangi kode PIN untuk konfirmasi";
+"pin.description.nomatch" = "PIN tidak sama";
+"pin.more.helpSupport" = "Bantuan dan Support";
+"pin.more.logout" = "Keluar";
+"pin.confirm.error" = "PIN tidak sesuai, silakan coba lagi";
+"pin.changed.navigation.insert.new.pin" = "Buat PIN Baru";
+"pin.changed.insert.new.pin.description" = "Buat 6-digit kode PIN baru";
+"pin.changed.navigation.confirm.new.pin" = "Ulangi PIN Baru";
+"pin.changed.confirm.new.pin.description" = "Ulangi 6-digit kode PIN baru";
+"pin.changed.success.title" = "PIN berhasil diubah";
+"pin.changed.success.description" = "PIN sudah berhasil diubah, silahkan masukkan PIN baru untuk akses aplikasi";
+"pin.changed.success.btn.ok" = "Oke";
+"pin.changed.cancel.description" = "Yakin mau batalkan proses ubah PIN?";
+"pin.changed.cancel.btn.dialog" = "Batalkan";
+"pin.forgot.navigation.insert.new.pin" = "Masukkan PIN Baru";
+"pin.forgot.navigation.confirm.new.pin" = "Ulangi PIN Baru";
+
+/// PhoneNumber OTP
+"phone.otp.description.phone" = "Masukkan 4 digit terakhir dari nomor yang melakukan panggilan sebagai kode verifikasi";
+"phone.otp.description.sms" = "Masukkan kode OTP dari SMS yang Anda terima";
+"phone.otp.btn.lost.phone" = "Kehilangan Nomor Handphone?";
+"phone.otp.request.sms.resend" = "Masukkan 6 digit kode dari SMS yang Anda terima";
+
+"phone.reset.success.title" = "Perubahan Nomor Telepon Berhasil";
+"phone.reset.success.description" = "Selamat! perubahan nomor telepon telah berhasil dilakukan.";
+
+"gauth.otp.textfield.title" = "Kode Google Authenticator";
+"gauth.otp.description.info" = "Masukkan 6 digit kode dari Google Authenticator";
+"gauth.otp.btn.lost.gauth" = "Kehilangan Google Authenticator?";
+"gauth.otp.attention.info" = "Pastikan aplikasi Google Authenticator di perangkat Anda aktif agar bisa menerima kode verifikasi.";
+"gauth.reset.success" = "Reset Google Authenticator Berhasil";
+"gauth.reset.success.description" = "Selamat! Reset Google Authenticator telah berhasil dilakukan, silahkan login kembali.";
+
+/// Liveness
+"liveness.camera.access" = "Mohon izinkan akses kamera untuk menyelesaikan Tes Face Detection";
+"liveness.error.navigation.title" = "Layanan deteksi wajah gagal";
+"liveness.error.btn.retake" = "Coba Lagi";
+"liveness.error.btn.retry.liveness" = "Tes Ulang";
+"liveness.error.description.text" = "Silakan coba kembali atau hubungi Customer Support kami dan laporkan Error ID. %@";
+"liveness.error.description.cta" = "[Salin Error ID]";
+"liveness.error.success.copyid" = "Berhasil salin Error ID";
+
+/// Verification
+"verification.navigation.title.verify" = "Verifikasi";
+"verification.text.info" = "Masukkan kode yang dikirimkan ke email dan nomor telepon Anda";
+"verification.text.email.title" = "Verifikasi Email (6 Digit)";
+"verification.text.email.prefix" = "X-";
+"verification.text.phone.title.citcall" = "Verifikasi No. Handphone (4 digit)";
+"verification.text.phone.title.sms" = "Verifikasi No. Handphone (6 digit)";
+"verification.text.phone.placeholder.citcall" = "Masukkan nomor handphone";
+"verification.text.phone.placeholder.sms" = "Masukkan nomor handphone";
+"verification.text.gauth.title" = "Google Authenticator (6 Digit)";
+"verification.btn.send.otp" = "Kirim OTP";
+"verification.btn.resend.otp" = "Kirim Ulang";
+"verification.btn.resend.timer" = "Kirim Ulang (%@ detik)";
+"verification.btn.next.otp" = "Verifikasi";
+"verification.citcall" = "Panggilan";
+
+"verification.text.infobox.email" = "Kode verifikasi telah dikirim ke %@";
+"verification.text.infobox.citcall" = "Panggilan tak terjawab dikirimkan ke nomor %@. Masukkan 4 digit terakhir dari nomor yang melakukan panggilan tak terjawab ke nomor Anda.";
+"verification.text.infobox.citcall.short" = "Panggilan tak terjawab dikirimkan ke nomor %@.";
+"verification.text.infobox.sms" = "Kami telah mengirimkan kode OTP melalui SMS ke nomor telepon %@.";
+
+"email.otp.navigation.title" = "Verifikasi Email";
+"email.otp.text.description" = "Masukkan kode yang dikirimkan ke email";
+"email.otp.btn.resend" = "Kirim Ulang";
+"email.otp.btn.resendTimer" = "Kirim Ulang (%@ detik)";
+
+/// Lost
+"lost.ga.navigation.title" = "Kehilangan Authenticator";
+"lost.phone.navigation.title" = "Kehilangan Nomor Telepon?";
+"lost.ga.info.title" = "Masukkan email dan nomor handphone yang Anda gunakan untuk menerima kode verifikasi";
+"lost.phone.info.title" = "Masukkan nomor handphone baru untuk menggantikan nomor lama Anda";
+"lost.error.empty.email" = "Email harus diisi";
+"lost.error.empty.phone" = "Nomor handphone harus diisi";
+"lost.error.format.email" = "Format email salah";
+"lost.error.format.phone" = "Format nomor handphone salah";
+"lost.error.combination" = "Data yang dimasukkan tidak valid.";
+"lost.error.empty.change.reason" = "Alasan Penggantian harus diisi";
+"lost.error.empty.other.reason" = "Alasan Penggantian harus diisi";
+"lost.phone.reason.title" = "Alasan Penggantian";
+"lost.phone.reason.placeholder" = "Pilih Alasan Penggantian";
+"lost.phone.other.reason.placeholer" = "Tulis alasan penggantian";
+/// Forgot PIN
+"forgot.pin.navigation.title" = "Lupa PIN";
+"forgot.pin.text.info" = "Masukkan kata sandi untuk mengatur ulang PIN Anda.";
+"forgot.pin.save.pin.label" = "PIN Berhasil Tersimpan";
+"forgot.pin.error.empty.ga" = "Kode Google Authenticator harus diisi";
+"forgot.pin.error.empty.otp" = "Kode Verifikasi (OTP) harus diisi";
+"forgot.pin.error.combination" = "Data yang dimasukkan tidak valid";
+"forgot.pin.otp.phone.title" = "Kode Verifikasi (OTP)";
+"forgot.pin.otp.phone.label" = "Masukkan 4 digit terakhir dari nomor yang melakukan panggilan sebagai kode verifikasi";
+"forgot.pin.make.new.pin" = "Buat PIN Baru";
+"reset.pin.title.success" = "Reset PIN Berhasil";
+"reset.pin.description.success" = "Selamat! Reset PIN telah berhasil dilakukan, gunakan PIN baru Anda untuk masuk.";
+
+// MARK: - Onboarding
+"onboarding.btn.home" = "Home";
+"onboarding.btn.register" = "Daftar";
+"onboarding.text.alreadyHaveAccount" = "Sudah punya akun? %@";
+"onboarding.text.login" = "Masuk";
+
+"onboarding.menu.title.1" = "Andalan Semua Trader";
+"onboarding.menu.title.2" = "Lebih Dari Aman";
+"onboarding.menu.title.3" = "Tempat Trading dan Belajar";
+"onboarding.menu.description.1" = "Pengalaman trading terbaik untuk semua trader dengan mode Lite & Pro";
+"onboarding.menu.description.2" = "Simpan #AsetMasaDepan Anda dengan aman di Indodax";
+"onboarding.menu.description.3" = "Pelajari ilmu trading ter-update dan rancang strategi trading andalan Anda";
+
+// MARK: - Modal
+"modal.help.logout.title" = "Bantuan & Keluar Akun";
+"modal.help.logout" = "Bantuan & Keluar Akun";
+
+// MARK: - Wallet
+"wallet.general.save" = "Simpan";
+"wallet.general.share" = "Bagikan";
+"wallet.general.understood" = "Saya Mengerti";
+"wallet.general.address" = "Alamat";
+"wallet.general.username" = "Username";
+"wallet.general.network" = "Jaringan";
+"wallet.general.depositNavigationTitle" = "Setor %@";
+"wallet.general.success" = "Sukses";
+"wallet.general.pending" = "Tertunda";
+"wallet.general.waiting" = "Menunggu";
+"wallet.general.cancelled" = "Dibatalkan";
+"wallet.general.bounding" = "Bounding";
+"wallet.general.unbounding" = "Unbounding";
+"wallet.general.earning" = "Earning";
+"wallet.general.successCancelTransaction" = "Transaksi berhasil dibatalkan";
+"wallet.general.yes" = "Ya";
+"wallet.general.no" = "Tidak";
+
+// section for main wallet page
+"wallet.header.title" = "Estimasi Nilai Aset";
+"wallet.header.value" = "%@ IDR";
+"wallet.header.depositButton" = "Setor";
+"wallet.header.withdrawButton" = "Tarik";
+"wallet.header.earnButton" = "Earn";
+"wallet.hideZeroBalance" = "Sembunyikan Saldo 0";
+"wallet.searchCoin" = "Cari Koin";
+"wallet.emptyResultSearchTitle" = "Pencarian yang Anda cari tidak dapat ditemukan";
+"wallet.emptyResultSearchSubtitle" = "Coba gunakan kata kunci lain untuk menemukan koin yang Anda cari";
+"wallet.emptyDataTitle" = "Tidak ada aset tersedia";
+"wallet.emptyDataSubtitle" = "Silakan setor rupiah untuk memulai aktifitas trading";
+"wallet.maintenanceLabel" = "Koin ini sedang dalam maintenance";
+"wallet.estimatedAssetAmountInfoViewTitle" = "Estimasi Nilai Aset";
+"wallet.estimatedAssetAmountInfoViewDescription" = "Estimasi nilai aset merupakan perkiraan nilai total dari seluruh aset yang Anda miliki.";
+"wallet.estimatedAssetAmountTitle" = "Estimasi nilai aset Anda:";
+"wallet.estimatedAssetAmountValue" = "%@ IDR";
+
+//section for asset detail idr
+"wallet.assetDetailIDR.navigationTitle" = "Rupiah Wallet";
+"wallet.assetDetailIDR.infoView.title" = "Total Aset Rupiah";
+"wallet.assetDetailIDR.infoView.remainingBalanceDesc" = "Sisa saldo %@ IDR";
+
+//section for asset detail coin
+"wallet.assetDetailCoin.emptyViewTitle" = "Anda belum memiliki riwayat transaksi";
+"wallet.assetDetailCoin.emptyViewDescription" = "Aktivitas transaksi Anda akan tersimpan dan dapat dilihat di halaman ini";
+"wallet.assetDetailCoin.historyTitle" = "Riwayat Transaksi";
+"wallet.assetDetailCoin.navigationTitle" = "%@ Wallet";
+"wallet.assetDetailCoin.marketSelectionTitle" = "Pilih Market";
+"wallet.assetDetailCoin.infoView.title" = "Total Aset %@";
+"wallet.assetDetailCoin.infoView.description" = "Total aset %@ merupakan jumlah keseluruhan asset %@ yang Anda miliki.";
+"wallet.assetDetailCoin.infoView.totalAssetTitle" = "Total aset %@ Anda:";
+"wallet.assetDetailCoin.infoView.activeSaldoTitle" = "Saldo Aktif";
+"wallet.assetDetailCoin.infoView.frozenSaldoTitle" = "Saldo Beku";
+"wallet.assetDetailCoin.infoView.frozenSaldoInfo" = "Apa itu saldo beku?";
+"wallet.assetDetailCoin.changeRootConfirmation.title" = "Perhatian";
+"wallet.assetDetailCoin.changeRootConfirmation.descriptionPro" = "Silahkan beralih ke Indodax LITE untuk mengakses halaman market aset ini";
+"wallet.assetDetailCoin.changeRootConfirmation.descriptionLite" = "Silahkan beralih ke Indodax PRO untuk mengakses halaman market aset ini";
+
+//section for history transaction list
+"wallet.transactionHistoryList.navigation" = "Riwayat Transaksi";
+"wallet.transactionHistoryList.emptyViewTitle" = "Anda belum memiliki riwayat transaksi";
+"wallet.transactionHistoryList.emptyViewSubtitle" = "Aktivitas transaksi Anda akan tersimpan dan dapat dilihat di halaman ini";
+"wallet.transactionHistoryList.cell.buyCoin" = "Beli di %@";
+"wallet.transactionHistoryList.cell.sellCoin" = "Jual di %@";
+"wallet.transactionHistoryList.cell.withdrawCoin" = "Tarik di %@";
+"wallet.transactionHistoryList.cell.depositCoin" = "Setor di %@";
+"wallet.transactionHistoryList.cell.earnCoinStaking" = "Menghasilkan di %@";
+"wallet.transactionHistoryList.cell.earnCoinUnstaking" = "Unstaking di %@";
+"wallet.transactionHistoryList.cell.earnCoinClaimReward" = "Klaim Bunga di %@";
+
+//section for history transaction filter
+"wallet.historyFilter.transactionHistoryFilterNavigation" = "Filter Riwayat Transaksi";
+"wallet.historyFilter.earnHistoryFilterNavigation" = "Filter Riwayat Transaksi";
+"wallet.historyFilter.transactionPeriodTitle" = "Periode Transaksi";
+"wallet.historyFilter.periodSelectionTitle" = "Pilih Periode";
+"wallet.historyFilter.transactionType.title" = "Jenis Transaksi";
+"wallet.historyFilter.transactionType.deposit" = "Setor";
+"wallet.historyFilter.transactionType.withdraw" = "Tarik";
+"wallet.historyFilter.transactionType.buy" = "Beli";
+"wallet.historyFilter.transactionType.sell" = "Jual";
+"wallet.historyFilter.transactionType.earn" = "Earn";
+"wallet.historyFilter.assetTypeTitle" = "Pilih Koin";
+"wallet.historyFilter.assetTypePlaceholder" = "Semua Koin";
+
+//section for history detail
+"wallet.transactionHistory.transactionDetail" = "Detail Transaksi";
+"wallet.transactionHistory.transactionId" = "ID Transaksi";
+"wallet.transactionHistory.tx" = "TX";
+"wallet.transactionHistory.time" = "Waktu";
+"wallet.transactionHistory.method" = "Metode";
+"wallet.transactionHistory.status" = "Status";
+"wallet.transactionHistory.recipientAddress" = "Alamat Penerima";
+"wallet.transactionHistory.senderAddress" = "Alamat Pengirim";
+"wallet.transactionHistory.coinPrice" = "Harga Koin";
+"wallet.transactionHistory.purchaseAmount" = "Jumlah Pembelian";
+"wallet.transactionHistory.soldAmount" = "Jumlah Penjualan";
+//%% to return % string, % only didnt work
+"wallet.transactionHistory.serviceFeePercent" = "Biaya Layanan 0,51%%";
+"wallet.transactionHistory.serviceFee" = "Biaya Layanan";
+"wallet.transactionHistory.taxDeduction" = "Potongan Pajak 0.11%%";
+"wallet.transactionHistory.receivedAmount" = "Total Diterima";
+"wallet.transactionHistory.totalEarn" = "Total Earn %@";
+"wallet.transactionHistory.total" = "Total dalam %@";
+"wallet.transactionHistory.tax" = "Pajak";
+"wallet.transactionHistory.receivedInterest" = "Bunga Diterima";
+"wallet.transactionHistory.staking" = "Staking";
+"wallet.transactionHistory.unstaking" = "Unstaking";
+"wallet.transactionHistory.claimReward" = "Klaim Bunga";
+
+"wallet.transactionHistory.helpCenterTitle" = "Pusat Bantuan";
+"wallet.transactionHistory.helpCenterDescription" = "Jika terdapat masalah dalam transaksi ini, mohon hubungi customer service dan berikan detail beserta info ID Transaksi.";
+"wallet.transactionHistory.goToHelpCenterButton" = "Hubungi Customer Service";
+"wallet.transactionHistory.transactionIdCopied" = "ID transaksi berhasil tersalin";
+"wallet.transactionHistory.txCopied" = "TX berhasil tersalin";
+
+"wallet.transactionHistory.navigationTitleBuyCoin" = "Beli %@";
+"wallet.transactionHistory.navigationTitleSellCoin" = "Jual %@";
+"wallet.transactionHistory.navigationTitleWithdrawCoin" = "Tarik %@";
+"wallet.transactionHistory.navigationTitleDepositCoin" = "Setor %@";
+"wallet.transactionHistory.navigationTitleEarnCoin" = "Earn %@";
+
+"wallet.transactionHistory.titleBuyCoin" = "Total Diterima";
+"wallet.transactionHistory.titleSellCoin" = "Total Diterima";
+"wallet.transactionHistory.titleWithdrawCoin" = "Total Penarikan";
+"wallet.transactionHistory.titleDepositCoin" = "Total Penyetoran";
+
+"wallet.transactionHistory.infoBuyTitle" = "Total Diterima";
+"wallet.transactionHistory.infoBuyDescription" = "Jumlah yang didapat dari transaksi suatu aset. Total ini sudah termasuk potongan biaya layanan serta pajak.";
+"wallet.transactionHistory.infoSellTitle" = "Total Diterima";
+"wallet.transactionHistory.infoSellDescription" = "Jumlah yang didapat dari transaksi suatu aset. Total ini sudah termasuk potongan biaya layanan serta pajak.";
+"wallet.transactionHistory.infoWithdrawTitle" = "Total Penarikan";
+"wallet.transactionHistory.infoWithdrawDescription" = "Total saldo atau koin yang ditarik dari wallet Anda. Jumlah ini belum termasuk potongan biaya layanan serta pajak.";
+"wallet.transactionHistory.infoDepositTitle" = "Total Penyetoran";
+"wallet.transactionHistory.infoDepositDescription" = "Total saldo atau koin yang dikirim ke Wallet Anda. Jumlah ini belum termasuk potongsn biaya layanan atau pun pajak.";
+
+"wallet.transactionHistory.cancelButton" = "Batalkan";
+"wallet.transactionHistory.resendButton" = "Kirim Ulang Email";
+"wallet.transactionHistory.cancelConfirmationTitle" = "Apakah Anda yakin ingin membatalkan transaksi ini?";
+
+//section for asset detail coin header
+"wallet.assetDetailCoinHeader.title" = "Total Aset %@";
+"wallet.assetDetailCoinHeader.deposit" = "Setor";
+"wallet.assetDetailCoinHeader.withdraw" = "Tarik";
+"wallet.assetDetailCoinHeader.market" = "Market";
+"wallet.assetDetailCoinHeader.limit" = "WD Limit";
+
+//section for asset detail earn view
+"wallet.assetDetailCoinEarn.title" = "INDODAX Earn";
+"wallet.assetDetailCoinEarn.description" = "Dapatkan keuntungan harian dari suku bunga investasi kripto";
+
+//section for network selection view
+"wallet.networkSelection.title" = "Pilih Jaringan Koin";
+"wallet.networkSelection.maintenanceLabel" = "Maintenance";
+
+//section for all network maintenance
+"wallet.allNetworkMaintenance.title" = "Jaringan dalam pemeliharaan";
+"wallet.allNetworkMaintenance.description" = "Semua jaringan koin sedang dalam pemeliharaan. Tunggu beberapa saat untuk melanjutkan transaksi";
+
+//section for failed generate address
+"wallet.failedGenerateAddress.title" = "Alamat jaringan gagal dibuat";
+"wallet.failedGenerateAddress.description" = "Alamat jaringan gagal dibuat karena kendala koneksi. Silakan ulangi pemilihan alamat jaringan";
+
+//section for load page failure
+"wallet.loadPageFailure.title" = "Gagal memuat halaman";
+"wallet.loadPageFailure.description" = "Gagal memuat halaman karena kendala koneksi. Periksa koneksi internet Anda dan silakan coba lagi";
+
+//section for withdraw suspended
+"wallet.withdrawSuspended.title" = "Penarikan koin ditangguhkan";
+"wallet.withdrawSuspended.description" = "Penarikan koin baru bisa dilakukan 72 jam setelah Anda melakukan pergantian kata sandi";
+"wallet.withdrawIDRSuspended.title" = "Penarikan IDR ditangguhkan";
+"wallet.withdrawIDRSuspended.description" = "Penarikan IDR hanya dapat dilakukan 72 jam setelah anda melakukan perubahan kata sandi";
+
+//section for agreement deposit coin
+"wallet.agreementDeposit.agreementTitle" = "Pastikan token dan alamat penyetoran sudah benar";
+"wallet.agreementDeposit.agreementDescription" = "Mengirim token yang tidak sesuai dengan alamat yang tercantum akan menyebabkan token tersebut hilang.";
+"wallet.agreementDeposit.taxTitle" = "Info Pajak";
+"wallet.agreementDeposit.taxDescription" = "Mengikuti PMK No. 68 tahun 2022, penerima aset dikenakan pajak sebesar %@ dari total transaksi. Lihat info pajak";
+"wallet.agreementDeposit.taxDescriptionHyperlink" = "Lihat info pajak";
+
+//section for deposit coin
+"wallet.deposit.balanceTitle" = "Saldo %@ (%@)";
+"wallet.deposit.addressTitle" = "Alamat Setor %@";
+"wallet.deposit.infoTitle" = "Info %@";
+"wallet.deposit.infoWarningDeveloper" = "Baca info resmi dari developer";
+"wallet.deposit.imageSaved" = "Gambar telah tersimpan!";
+"wallet.deposit.textCopied" = "Teks berhasil disalin!";
+
+//section for withdraw coin notice
+"wallet.withdrawCoinNotice.navigation" = "Tarik %@";
+"wallet.withdrawCoinNotice.title" = "Koin akan masuk ke wallet dalam 60 menit";
+"wallet.withdrawCoinNotice.description" = "Semua transaksi yang Anda lakukan bersifat final. Setelah berhasil diproses, transaksi tidak dapat dibatalkan dan tidak dapat di-refund";
+
+//section for withdraw coin method selection
+"wallet.withdrawCoinMethod.title" = "Metode Penarikan Koin";
+"wallet.withdrawCoinMethod.address.title" = "Alamat";
+"wallet.withdrawCoinMethod.address.description" = "Kirim koin menggunakan alamat jaringan atau alamat Indodax";
+"wallet.withdrawCoinMethod.username.title" = "Username";
+"wallet.withdrawCoinMethod.username.description" = "Kirim koin menggunakan username ke sesama Indodax";
+
+//section for withdraw coin
+"wallet.withdrawCoin.navigation" = "Tarik %@";
+"wallet.withdrawCoin.assetAmountTitle" = "Saldo %@ (%@)";
+"wallet.withdrawCoin.method.title" = "Metode Penarikan";
+"wallet.withdrawCoin.method.address" = "Alamat";
+"wallet.withdrawCoin.method.username" = "Username";
+"wallet.withdrawCoin.addressLabel" = "Label";
+"wallet.withdrawCoin.recipientAddressTitle" = "Alamat Penerima";
+"wallet.withdrawCoin.recipientAddressPlaceholder" = "Masukkan alamat koin di sini";
+"wallet.withdrawCoin.recipientUsernameTitle" = "Username Indodax";
+"wallet.withdrawCoin.recipientUsernamePlaceholder" = "Tulis Username Indodax";
+"wallet.withdrawCoin.networkTitle" = "Jaringan";
+"wallet.withdrawCoin.networkPlaceholder" = "Pilih Jaringan";
+"wallet.withdrawCoin.attentionNetworkBoxTitle" = "Pastikan jaringan sudah benar";
+"wallet.withdrawCoin.attentionNetworkBoxDescription" = "Salah jaringan dapat menyebabkan token hilang";
+"wallet.withdrawCoin.amountTitle" = "Jumlah Tarik Koin";
+"wallet.withdrawCoin.amountMaxButton" = "Max";
+"wallet.withdrawCoin.amountErrorLabel" = "Jumlah Invalid: Min. dan maks. pengiriman %@ - %@";
+"wallet.withdrawCoin.informationBoxTitle" = "Info %@";
+"wallet.withdrawCoin.increaseWdLimitNotice" = "Maksimal pengiriman %@ per hari ( untuk menaikan limit, %@ ).";
+"wallet.withdrawCoin.continueButton" = "Selanjutnya";
+
+//section for scan qr
+"wallet.scanqr.navigation" = "Pindai QR Code";
+"wallet.scanqr.instruction" = "Posisikan QR Code di dalam kotak untuk scan.";
+"wallet.scanqr.failed.title" = "Pindai kode QR gagal";
+"wallet.scanqr.failed.description" = "Ada kesalahan dalam proses pindai, cek ulang kode QR yang dipindai";
+
+//section for withdraw coin confirmation
+"wallet.withdrawCoinConfirmation.navigation" = "Konfirmasi Penarikan";
+"wallet.withdrawCoinConfirmation.totalWithdrawAmountTitle" = "Total Penarikan";
+"wallet.withdrawCoinConfirmation.transactionDetailTitle" = "Detail Transaksi";
+"wallet.withdrawCoinConfirmation.recipientAddressTitle" = "Alamat Penerima";
+"wallet.withdrawCoinConfirmation.recipientUsernameTitle" = "Username Indodax";
+"wallet.withdrawCoinConfirmation.networkTitle" = "Jaringan";
+"wallet.withdrawCoinConfirmation.feeTitle" = "Biaya Layanan";
+"wallet.withdrawCoinConfirmation.receivedAmountTitle" = "Total Diterima";
+"wallet.withdrawCoinConfirmation.attentionBox.firstPoint" = "Pastikan alamat dan jaringan sudah benar.";
+"wallet.withdrawCoinConfirmation.attentionBox.secondPoint" = "Setelah konfirmasi, transaksi ini tidak bisa dibatalkan.";
+"wallet.withdrawCoinConfirmation.withdrawButton" = "Tarik Koin";
+"wallet.withdrawCoinConfirmation.successWdCoinTitle" = "Harap lakukan konfirmasi!";
+"wallet.withdrawCoinConfirmation.successWdCoinDescription" = "Email konfirmasi telah dikirim ke kotak masuk email Anda. Untuk melanjutkan permintaan, klik tautan konfirmasi yang diberikan.\nTidak menemukan email? Periksa folder spam atau bagian promosi.";
+"wallet.withdrawCoinConfirmation.failedWdCoinTitle" = "Gagal Tarik Koin";
+"wallet.withdrawCoinConfirmation.memoTitle" = "Memo";
+
+// section for save coin address/username list on wallet
+"wallet.savedAddressList.address.navigationTitle" = "Pilih Alamat Koin";
+"wallet.savedAddressList.username.navigationTitle" = "Pilih Username Koin";
+"wallet.savedAddressList.address.addButton" = "Tambah Alamat Baru";
+"wallet.savedAddressList.username.addButton" = "Tambah Username Baru";
+"wallet.savedAddressList.address.snackbar.successAdd" = "Address berhasil ditambahkan";
+"wallet.savedAddressList.username.snackbar.successAdd" = "Username berhasil ditambahkan";
+"wallet.savedAddressList.address.snackbar.successRemove" = "Address berhasil dihapus";
+"wallet.savedAddressList.username.snackbar.successRemove" = "Username berhasil dihapus";
+"wallet.savedAddressList.address.snackbar.successEdit" = "Address berhasil diedit";
+"wallet.savedAddressList.username.snackbar.successEdit" = "Username berhasil diedit";
+"wallet.savedAddressList.address.snackbar.successReorder" = "List Address berhasil diatur";
+"wallet.savedAddressList.username.snackbar.successReorder" = "List Username berhasil diatur";
+"wallet.savedAddressList.address.emptyViewTitle" = "Belum ada alamat koin tersimpan";
+"wallet.savedAddressList.username.emptyViewTitle" = "Belum ada username tersimpan";
+"wallet.savedAddressList.address.emptyViewDescription" = "Alamat koin yang Anda simpan akan ditampilkan di halaman ini";
+"wallet.savedAddressList.username.emptyViewDescription" = "Username koin yang Anda simpan akan ditampilkan di halaman ini";
+
+// section for save coin address/username form on wallet
+"wallet.savedAddressForm.addAddressNavigationTitle" = "Tambah Alamat Baru";
+"wallet.savedAddressForm.addUsernameNavigationTitle" = "Tambah Username Baru";
+"wallet.savedAddressForm.editAddressNavigationTitle" = "Atur Alamat Koin";
+"wallet.savedAddressForm.editUsernameNavigationTitle" = "Atur Username Koin";
+"wallet.savedAddressForm.coinNameTitle" = "Nama Koin";
+"wallet.savedAddressForm.recipientNameTitle" = "Nama Penerima";
+"wallet.savedAddressForm.recipientNamePlaceholder" = "Tulis Nama Penerima";
+"wallet.savedAddressForm.addressLabelTitle" = "Label Alamat";
+"wallet.savedAddressForm.addressLabelPlaceholder" = "Tulis Label Alamat";
+"wallet.savedAddressForm.usernameLabelTitle" = "Label Username";
+"wallet.savedAddressForm.usernameLabelPlaceholder" = "Tulis Label Username";
+"wallet.savedAddressForm.recipientAddressTitle" = "Alamat Penerima";
+"wallet.savedAddressForm.recipientAddressPlaceholder" = "Tempel alamat koin di sini";
+"wallet.savedAddressForm.recipientUsernameTitle" = "Username Indodax";
+"wallet.savedAddressForm.recipientUsernamePlaceholder" = "Tulis Username Indodax";
+"wallet.savedAddressForm.selfAddressDeclarationTitle" = "Alamat Akun Pribadi";
+"wallet.savedAddressForm.selfAddressDeclarationDescription" = "Alamat penerima di atas merupakan akun milik sendiri, bukan milik orang lain";
+"wallet.savedAddressForm.networkTitle" = "Jaringan";
+"wallet.savedAddressForm.networkPlaceholder" = "Pilih Jaringan";
+"wallet.savedAddressForm.addressOriginTitle" = "Alamat Tujuan";
+"wallet.savedAddressForm.addressOriginPlaceholder" = "Pilih Alamat Tujuan";
+"wallet.savedAddressForm.exchangeTitle" = "Exchange";
+"wallet.savedAddressForm.exchangePlaceholder" = "Pilih Exchange";
+"wallet.savedAddressForm.exchangeNameTitle" = "Nama Exchange";
+"wallet.savedAddressForm.exchangeNamePlaceholder" = "Tulis Nama Exchange";
+"wallet.savedAddressForm.walletTitle" = "Wallet";
+"wallet.savedAddressForm.walletPlaceholder" = "Pilih Wallet";
+"wallet.savedAddressForm.walletNameTitle" = "Nama Wallet";
+"wallet.savedAddressForm.walletNamePlaceholder" = "Tulis Nama Wallet";
+"wallet.savedAddressForm.saveAddressButtonTitle" = "Simpan Alamat";
+"wallet.savedAddressForm.saveUsernameButtonTitle" = "Simpan Username";
+"wallet.savedAddressForm.addressOriginTypeSelection.Title" = "Pilih Alamat Tujuan";
+"wallet.savedAddressForm.addressOriginTypeSelection.exchangeTitle" = "Exchange";
+"wallet.savedAddressForm.addressOriginTypeSelection.walletTitle" = "Wallet";
+"wallet.savedAddressForm.addressOriginNameSelection.exchangeTitle" = "Pilih Exchange";
+"wallet.savedAddressForm.addressOriginNameSelection.searchExchange" = "Cari Exchange...";
+"wallet.savedAddressForm.addressOriginNameSelection.walletTitle" = "Pilih Wallet";
+"wallet.savedAddressForm.addressOriginNameSelection.searchWallet" = "Cari Wallet...";
+
+//section for earn general
+"wallet.earn.general.stakingAmount" = "Jumlah Staking";
+"wallet.earn.general.apyEstimation" = "Est. APY";
+"wallet.earn.general.interestEstimation" = "Est. Bunga";
+"wallet.earn.general.interestPeriod" = "Periode Bunga";
+"wallet.earn.general.cumulativeInterest" = "Bunga Kumulatif";
+"wallet.earn.general.boundingPeriod" = "Periode Bounding";
+"wallet.earn.general.unboundingPeriod" = "Periode Unbounding";
+"wallet.earn.general.minimalStaking" = "Minimal Staking";
+"wallet.earn.general.stakingDate" = "Tanggal Staking";
+"wallet.earn.general.activationDate" = "Tanggal Aktivasi";
+"wallet.earn.general.summary" = "Ringkasan";
+"wallet.earn.general.availableInterest" = "Bunga Tersedia";
+"wallet.earn.general.tax" = "Pajak";
+"wallet.earn.general.receivedInterest" = "Bunga Diterima";
+"wallet.earn.general.agreementTitle" = "Saya telah membaca dan setuju dengan %@";
+"wallet.earn.general.boldAgreementTitle" = "Perjanjian Layanan Staking Indodax.";
+"wallet.earn.general.unstakingAmount" = "Jumlah Unstaking";
+"wallet.earn.general.claimReward" = "Klaim Bunga";
+"wallet.earn.general.backToEarn" = "Kembali ke Earn";
+"wallet.earn.general.stakeNow" = "Stake Sekarang";
+"wallet.earn.general.maintenance" = "Dalam Pemeliharaan";
+"wallet.earn.general.shortMaintenance" = "Pemeliharaan";
+
+//section for earn infoview
+"wallet.earn.infoView.apyEstimation.title" = "Est. APY";
+"wallet.earn.infoView.apyEstimation.description" = "Estimated Annual Percentage Yield, merupakan perkiraan persentase bunga yang akan Anda dapatkan per tahun. Bunga tersebut dapat berubah mengikuti ketentuan blockchain masing-masing aset.";
+"wallet.earn.infoView.interestEstimation.title" = "Est. Bunga";
+"wallet.earn.infoView.interestEstimation.description" = "Estimasi bunga yang akan didapatkan dari reward yang dibagikan. Jumlah ini ditentukan oleh blockchain masing-masing aset.";
+"wallet.earn.infoView.interestPeriod.title" = "Periode Bunga";
+"wallet.earn.infoView.interestPeriod.description" = "Periode pembagian staking rewards yang sudah ditentukan oleh blockchain masing-masing aset";
+"wallet.earn.infoView.claimInterest.title" = "Klaim Bunga";
+"wallet.earn.infoView.claimInterest.description" = "Jumlah staking rewards yang diterima setelah pemotongan biaya pajak sebesar 0,11%%.";
+"wallet.earn.infoView.boundingPeriod.title" = "Periode Bounding";
+"wallet.earn.infoView.boundingPeriod.description" = "Waktu yang dibutuhkan untuk aset yang baru saja di-staking oleh Anda untuk memulai mendapatkan rewards. Periode Aktivasi ditentukan dari blockchain masing-masing aset.";
+"wallet.earn.infoView.unboundingPeriod.title" = "Periode Unbounding";
+"wallet.earn.infoView.unboundingPeriod.description" = "Waktu yang dibutuhkan untuk menerima aset setelah melakukan unstaking. Periode Unbounding ditentukan dari blockchain masing-masing aset.";
+"wallet.earn.infoView.fee.title" = "Pajak";
+"wallet.earn.infoView.fee.description" = "PPN sebesar 0,11%% akan dikenakan pada reward yang didapat dari staking.";
+"wallet.earn.infoView.status.title" = "Status";
+"wallet.earn.infoView.status.descriptionHtml" = "<ul><li><b>Bounding</b> menandakan bahwa aset Anda sudah masuk ke antrean staking namun belum mulai menghasilkan reward.</li></ul>\n<ul><li><b>Earning</b> menandakan bahwa aset Anda dalam proses menghasilkan staking rewards.</li></ul>\n<ul><li><b>Unbounding</b> menandakan bahwa aset Anda sudah masuk ke antrean unstaking dan telah berhenti menghasilkan rewards.</li></ul>";
+"wallet.earn.infoView.status.description.boundingKey" = "Bounding";
+"wallet.earn.infoView.status.description.boundingValue" = "menandakan bahwa aset Anda sudah masuk ke antrean staking namun belum mulai menghasilkan reward.";
+"wallet.earn.infoView.status.description.unboundingKey" = "Unbounding";
+"wallet.earn.infoView.status.description.unboundingValue" = "menandakan bahwa aset Anda sudah masuk ke antrean unstaking dan telah berhenti menghasilkan rewards.";
+"wallet.earn.infoView.status.description.earningKey" = "Earning";
+"wallet.earn.infoView.status.description.earningValue" = "menandakan bahwa aset Anda dalam proses menghasilkan staking rewards.";
+
+//section for earn
+"wallet.earn.navigationTitle" = "Earn";
+"wallet.earn.estimationTitle" = "Est. Nilai Staking";
+"wallet.earn.totalInterestTitle" = "Total Bunga";
+"wallet.earn.profitTitle" = "Profit 24 Jam";
+"wallet.earn.assetButton" = "Lihat Aset";
+"wallet.earn.portfolioTitle" = "Portofolio";
+"wallet.earn.emptyViewTitle" = "Anda belum memiliki portofolio";
+"wallet.earn.emptyViewDescription" = "Portofolio Anda akan terlihat di halaman ini";
+
+//section for staking list
+"wallet.stakingList.navigationTitle" = "Staking";
+
+//section for ethereum staking info
+"wallet.ethStakingInfo.navigationTitle" = "ETH 2.0";
+"wallet.ethStakingInfo.headerTitle" = "Apa itu Indodax ETH 2.0 Staking?";
+"wallet.ethStakingInfo.headerDescription" = "INDODAX Staking membantu kamu menumbuhkan ETH yang kamu miliki dengan cara mengunci ETH tersebut ke dalam Ethereum Beacon Chain.";
+"wallet.ethStakingInfo.easyAndSimple" = "Easy and Simple";
+"wallet.ethStakingInfo.safeAndSecure" = "Safe and Secure";
+"wallet.ethStakingInfo.lowBariers" = "Low Bariers";
+"wallet.ethStakingInfo.principalGuaranteed" = "Principal Guaranteed";
+"wallet.ethStakingInfo.processTitle" = "Proses Staking ETH 2.0";
+"wallet.ethStakingInfo.stakeTitle" = "Stake ETH";
+"wallet.ethStakingInfo.stakeDescription" = "Kamu dapat melakukan staking ETH 2.0 dengan cepat dan mudah dengan modal minimal 0,001 ETH.";
+"wallet.ethStakingInfo.rewardsTitle" = "Rewards Distribution";
+"wallet.ethStakingInfo.rewardsDescription" = "Distribusi rewards staking akan dilakukan setelah Ethereum melakukan upgrade Shanghai yang kemungkinan terjadi pada tahun 2023. Tapi, tenang saja hadiah staking ETH kamu akan tetap terhitung semenjak kamu staking ETH.";
+"wallet.ethStakingInfo.redeemTitle" = "Redeem ETH";
+"wallet.ethStakingInfo.redeemDescription" = "Withdrawal ETH dapat dilakukan setelah upgrade Shanghai Ethereum yang direncanakan pada tahun 2023.";
+
+//section for add staking
+"wallet.addStaking.navigationTitle" = "Staking %@";
+"wallet.addStaking.stakingAmountPlaceholder" = "Masukkan Jumlah";
+"wallet.addStaking.availableAssetTitle" = "Aset Tersedia";
+"wallet.addStaking.errorMinimumStaking" = "Jumlah kurang dari minimum staking";
+"wallet.addStaking.errorAssetNotEnough" = "Jumlah lebih dari aset tersedia";
+"wallet.addStaking.errorFailedStakingTitle" = "Staking %@ Gagal";
+"wallet.addStaking.attentionTitle" = "Perhatian";
+
+//section for success staking
+"wallet.successStaking.navigation" = "Staking %@ Berhasil";
+"wallet.successStaking.portfolioButton" = "Lihat Portofolio";
+
+//section for portfolio
+"wallet.portfolio.detailTitle" = "Detail";
+"wallet.portfolio.historyTitle" = "Riwayat";
+"wallet.portfolio.moreMenu.title" = "Lainnya";
+"wallet.portfolio.moreMenu.helpTitle" = "Bantuan & Support";
+"wallet.portfolio.moreMenu.unstakingTitle" = "Unstaking";
+
+//section for portfolio detail
+"wallet.portfolioDetail.status" = "Status";
+"wallet.portfolioDetail.claimButton" = "Klaim Bunga";
+
+//section for claim reward
+"wallet.claimReward.navigationTitle" = "Klaim Bunga";
+"wallet.claimReward.infoTitle" = "Informasi";
+"wallet.claimReward.infoDescription" = "Bunga yang Anda cairkan akan masuk ke wallet spot dalam 1 X 24 jam.";
+"wallet.claimReward.claimButton" = "Klaim Bunga Sekarang";
+"wallet.claimReward.errorFailedClaimTitle" = "Klaim Bunga Gagal";
+
+//section for claim reward success
+"wallet.claimRewardSuccess.title" = "Klaim Bunga Berhasil";
+"wallet.claimRewardSuccess.claimDate" = "Tanggal Klaim";
+
+//section for unstaking
+"wallet.unstaking.navigationTitle" = "Unstaking %@";
+"wallet.unstaking.infoTitle" = "Perhatian";
+"wallet.unstaking.infoDescription" = "Bunga tersedia akan otomatis ikut terklaim jika Anda memilikinya.";
+"wallet.unstaking.errorFailedUnstakingTitle" = "Unstaking %@ Gagal";
+"wallet.unstaking.attentionMessage" = "Unstaking %@ memerlukan waktu %@ untuk user menerima aset di walletnya.";
+
+//section for unstaking success
+"wallet.unstakingSuccess.title" = "Unstaking %@ Berhasil";
+"wallet.unstakingSuccess.unstakingDate" = "Tanggal Unstaking";
+"wallet.unstakingSuccess.receivedDate" = "Tanggal Diterima";
+
+//section for earn history
+"wallet.earnHistory.navigation" = "Riwayat Earn";
+"wallet.earnHistory.stakingTabTitle" = "Staking";
+"wallet.earnHistory.unstakingTabTitle" = "Unstaking";
+"wallet.earnHistory.noDataTitle" = "Anda belum memiliki riwayat";
+"wallet.earnHistory.noDataDescription" = "Aktivitas Earn Anda akan tersimpan dan dapat dilihat di halaman ini";
+
+"wallet.history.nav.depoIdr" = "Setor IDR";
+"wallet.history.nav.withdrawIdr" = "Tarik IDR";
+"wallet.history.nav.generateVoucher" = "Generate Voucher";
+"wallet.history.nav.redeemVoucher" = "Redeem Voucher";
+
+"wallet.history.voucherTotal" = "Total Voucher";
+"wallet.history.withdrawTotal" = "Total Pencairan";
+
+"wallet.history.withdrawTarget" = "Tujuan Penarikan";
+"wallet.history.voucherCode" = "Kode Voucher";
+
+"wallet.history.recipientEmail" = "Email Penerima";
+
+//section for email confirmation
+"wallet.emailConfirmation.sentTitle" = "Harap lakukan konfirmasi!";
+"wallet.emailConfirmation.resentTitle" = "Berhasil Mengirim Ulang Email";
+"wallet.emailConfirmation.description" = "Email konfirmasi telah dikirim ke kotak masuk email Anda. Untuk melanjutkan permintaan, klik tautan konfirmasi yang diberikan.
+Tidak menemukan email? Periksa folder spam atau bagian promosi.";
+"wallet.emailConfirmation.button" = "Periksa Email Saya";
+
+"wallet.assetDetail.limitDesc" = "Upgrade limit penarikan akan segera hadir di aplikasi Indodax. Untuk saat ini, lakukan pengajuan  kenaikan limit melalui website Indodax.";
+"wallet.assetDetail.limitTitle" = "Upgrade Limit Penarikan";
+
+"wallet.assetDetail.infoTitle" = "Total aset Rupiah/IDR";
+"wallet.assetDetail.infoDesc" = "Total aset keseluruhan yang anda miliki dalam hitungan rupiah.";
+"wallet.assetDetail.infoTotalIdr" = "Total aset Rupiah/IDR Anda:";
+"wallet.assetDetail.infoSaldoRemain" = "Sisa saldo:";
+
+"wallet.wd.idr.addressLabel";
+
+// MARK: - Exchange
+// Home
+"home.navigation.pro.title.lbl" = "PRO";
+"home.navigation.lite.title.lbl" = "LITE";
+
+"home.verification.title.lbl" = "Ayo Verifikasi Akunmu";
+"home.verification.desc.lbl" = "Verifikasi akunmu untuk bisa memulai aktivitas jual beli";
+"home.verification.process.title" = "Verifikasi Akun Diproses";
+"home.verification.process.desc" = "Permohonan verifikasi Anda sedang dalam peninjauan";
+"home.verification.lock.title" = "Aktivitas Akun Anda Terkunci";
+"home.verification.lock.desc" = "Lakukan proses tes deteksi wajah untuk mengaktifkan akun Anda kembali";
+
+"home.pager.trending.lbl" = "Trending";
+"home.pager.gainers.lbl" = "Gainers";
+"home.pager.losers.lbl" = "Losers";
+"home.pager.newcoin.lbl" = "Koin Baru";
+
+"home.filter.down.lbl" = "down";
+"home.filter.up.lbl" = "up";
+"home.filter.default.lbl" = "default";
+
+"home.pagger.header.price.lbl" = "Harga";
+"home.pagger.header.name.lbl" = "Nama";
+"home.pagger.header.24h.lbl" = "24H Chg";
+"home.pagger.header.vol.24h.lbl" = "Vol 24H";
+
+"home.menu.deposit.lbl" = "Setor";
+"home.menu.history.lbl" = "Riwayat";
+"home.menu.academy.lbl" = "Academy";
+"home.menu.help.lbl" = "Bantuan";
+"home.menu.earn.lbl" = "Earn";
+
+"home.empty.pagger.newcoin" = "Tidak ada koin tersedia";
+
+"Favorite" = "Favorit";
+
+// Home Lite
+"homelite.balanceView.title.lbl" = "Selamat datang di Indodax!";
+"homelite.balanceView.desc.lbl" = "Jual beli Crypto dengan mudah, cepat, dan aman";
+"homelite.balanceView.Asset.title.lbl" = "Estimasi nilai aset";
+"homelite.balanceView.Asset.desc.lbl" = "Estimasi nilai aset merupakan perkiraan nilai total dari seluruh aset yang Anda miliki.";
+"homelite.showall" = "Lihat Semua";
+"homelite.coinTrending" = "Koin Trending";
+"homelite.newNews" = "Berita Terbaru";
+
+// Edit Favorite
+"editfavorite.toastMessage" = "Drag daftar koin untuk atur posisi";
+
+// Search
+"search.searchCoin" = "Cari Koin...";
+"search.trending" = "Pencarian Trending";
+"search.result" = "Hasil Pencarian";
+"search.history" = "Riwayat Pencarian";
+"search.delete" = "Hapus Riwayat";
+"search.emptyTitle" = "Pencarian yang Anda cari tidak dapat ditemukan";
+"search.emptyDesc" = "Coba gunakan kata kunci lain untuk menemukan koin yang Anda cari";
+
+// Notification
+"notification.lbl" = "Notifikasi";
+"notification.transaction.lbl" = "Transaksi";
+"notification.info.lbl" = "Info";
+"notification.bonus.lbl" = "Bonus";
+
+"notification.new" = "Terbaru";
+"notification.markAll" = "Tandai semua dibaca";
+"notification.empty.title" = "Belum Ada Notifikasi";
+"notification.empty.desc" = "Notifikasi yang masuk akan terlihat di halaman ini";
+
+"notification.setting.navbar.title" = "Push Notification";
+"notification.setting.list" = "Daftar Notifikasi";
+"notification.setting.list.desc" = "Atur notifikasi yang ingin diterima";
+"notification.setting.transaction.desc" = "Order filled, tarik/deposit rupiah, kirim/terima koin.";
+"notification.setting.bonus.desc" = "Referal, giveaway and promo";
+"notification.setting.activityAccount" = "Aktifitas Akun";
+"notification.setting.activityAccount.desc" = "Masuk akun, ganti kata sandi, install/uninstall 2FA";
+"notification.turn.off" = "Matikan Notifikasi";
+"notification.turn.off.desc" = "Jika Anda menonaktifkan Push Notifikasi, Anda tidak akan menerima pemberitahuan apapun";
+"notification.turnoff.btn.off" = "Matikan";
+
+ 
+// Market
+"market.category.all" = "Semua";
+
+"market.category.idrtitle" = "IDR Market";
+"market.category.idrdesc" = "Semua koin yang ada di market IDR (pair IDR)";
+
+"market.category.usdttitle" = "USDT Market";
+"market.category.usdtdesc" = "Daftar koin yang tersedia pada market USDT serta pair USDT";
+
+"market.category.alltitle" = "Semua Coin";
+"market.category.alldesc" = "Daftar koin yang tersedia di market";
+"market.widget.toast" = "Daftar koin berhasil diubah";
+"market.widget.cancelChanges" = "Batalkan perubahan daftar koin?";
+"market.button.maintenance" = "Koin sedang maintenance";
+
+
+"market.list.price" = "Harga";
+"market.list.name" = "Nama";
+"market.list.change" = "Change";
+"market.list.vol" = "Vol";
+"market.edit.favorite" = "Atur Koin Favorit";
+"market.favorite.emptyTitle" = "Kamu belum memiliki Koin favorit";
+"market.favorite.emptyDesc" = "Tambah koin sebagai favorit untuk pantau secara cepat dan mudah";
+"market.favorite.title" = "Koin Favorit";
+"market.favorite.setfavorite" = "Atur Koin";
+"market.more" = "Lainnya";
+"market.all.title" = "Semua";
+"market.all.desc" = "Semua Coin";
+
+
+// Market Detail
+"market.detail.list.sum" = "Jumlah";
+"market.detail.list.price" = "Harga";
+"market.detail.list.time" = "Waktu";
+"market.detail.list.name" = "Nama";
+"market.select.coin" = "Pilih Koin";
+
+
+"market.detail.estimation" = "Est. dalam rupiah";
+"market.detail.infobutton" = "Baca Selengkapnya";
+"market.detail.list.externalMarket" = "Market Luar";
+"market.detail.info.title" = "Statistik Market";
+"market.detail.info.volume" = "Vol. 24 Jam";
+"market.detail.info.capitalisation" = "Kapitalisasi Pasar";
+"market.detail.info.supply" = "Suplai Peredaran";
+"market.detail.info.supplymax" = "Suplai Maksimum";
+"market.detail.info.about" = "Tentang %@";
+"market.detail.info.sumasset" = "Jumlah Asset Anda";
+"market.detail.indicator.title" = "Pengaturan Indikator";
+"market.detail.interval.title" = "Atur Interval";
+
+"market.detail.ordebook" = "Order Book";
+"market.detail.trade" = "Trades";
+"market.detail.external" = "Market Luar";
+"market.detail.info" = "Info";
+"market.detail.reset" = "Reset";
+"market.detail.period" = "Periode Kalkulasi";
+"market.detail.bandwidth" = "Bandwidth";
+"market.detail.index" = "Indeks";
+"market.detail.value" = "Nilai";
+"market.detail.color" = "Warna";
+
+"market.detail.boll" = "BOLL";
+"market.detail.ema" = "EMA";
+"market.detail.ma" = "MA";
+"market.detail.vol" = "Vol";
+
+"market.detail.bid" = "Bid";
+"market.detail.ask" = "Ask";
+"market.detai.transaction.failed.title" = "Transaksi tidak dapat diproses";
+"market.detai.transaction.failed.desc" = "Transaksi Anda tidak dapat diproses karena perlindungan batas toleransi harga pada market. Coba lagi dengan harga dan jumlah yang lebih kecil.";
+
+"market.detail.price" = "Harga %@";
+"market.detail.settingInterval" = " Atur Interval";
+"market.detail.mainIndicator" = "Indikator Utama";
+
+// Trade
+"trade.form.btn" = "Harga";
+"trade.form.amount.textfield" = "Jumlah (%@)";
+"trade.form.estimated.textfield" = "Total (%@)";
+"trade.form.price.textfield" = "Harga (%@)";
+"trade.orderbook.seemore" = "Lebih banyak";
+"trade.maintenance" = "Koin sedang maintenance";
+"trade.maintenanceDesc" = "Mohon maaf, aset %@ sedang dalam proses maintenance. Anda tidak bisa melakukan jual atau beli koin sementara.";
+
+"trade.more.title" = "Lainnya";
+"trade.more.withdraw" = "Tarik";
+"trade.more.deposit" = "Setor";
+"trade.more.rating" = "Lihat Rating";
+"trade.more.add" = "Tambah";
+"trade.more.add.to" = "ke";
+"trade.more.delete" = "Hapus";
+"trade.more.delete.from" = "dari";
+"trade.more.favorite" = "Favorit";
+
+"trade.sort.title" = "Sortir";
+"trade.sort.titleOrderBook" = "Sort Order Book";
+"trade.sort.sellorder" = "Order Jual";
+"trade.sort.buyorder" = "Order Beli";
+
+"trade.toltip.openOrder.title" = "Open Orders";
+"trade.toltip.openOrder.desc" = "Jumlah yang ditampilkan belum termasuk potongan biaya layanan atau pajak.";
+
+
+"trade.alert.more.addFavorite" = "Koin berhasil ditambahkan";
+"trade.alert.more.deleteFavorite" = "Koin berhasil dihapus";
+
+"trade.alert.openOrder.cancelOrder.title" = "Batalkan Order";
+"trade.alert.openOrder.attention" = "Perhatian";
+"trade.alert.openOrder.cancelOrder" = "Anda yakin ingin membatalkan order ini?";
+"trade.alert.openOrder.cancelAll" = "Semua order yang sedang berjalan di koin lainnya akan dibatalkan";
+"trade.alert.openOrder.btn.cancelOrder" = "Batalkan Order";
+"trade.alert.openOrder.btn.cancelAll" = "Batalkan Semua";
+
+"trade.alert.nopendingorder" = "Tidak ada order";
+
+"trade.alert.filled.empty" = "%@ belum terisi";
+"trade.alert.buy.min" = "Minimum pembelian %@";
+"trade.alert.sell.min" = "Minimal penjualan %@";
+"trade.alert.noenoughbalance" = "Saldo tidak cukup";
+"trade.alert.deleteOrder" = "Order berhasil dihapus";
+
+"trade.alert.risk.title" = "Peringatan Risiko";
+"trade.alert.risk.desc" = "Token ini memiliki volatilitas harga yang tinggi. Trading lah dengan hati-hati. Risiko kehilangan aset merupakan tanggung jawab masing-masing user.";
+
+"trade.alert.slipPage.title" = "Order Book tidak cukup";
+"trade.alert.slipPage.desc" = "Transaksi terlalu besar untuk metode market. Silakan masukkan nominal lebih kecil.";
+"trade.alert.slipPage.positiveButtonTitle" = "Saya Mengerti";
+
+"trade.alert.puchase.success" = "Pembelian berhasil";
+"trade.alert.sell.success" = "Penjualan berhasil";
+
+"trade.openorder.history" = "Riwayat";
+"trade.openorder.seeall" = "Tampilkan Semua";
+"trade.openorder.noorder" = "Tidak Ada Order";
+"trade.openorder.filled" = "Terisi";
+"trade.openorder.trigger" = "Harga Pemicu";
+"chart.nodata" = "Tidak ada data chart";
+
+// Trade Lite
+"tradelite.detailtransaction" = "Detail Transaksi";
+"tradelite.buysum" = "Jumlah pembelian";
+"tradelite.sellsum" = "Jumlah jual";
+"tradelite.updateestimation" = "Harga koin diperbarui";
+"tradelite.confirmation" = "Konfirmasi";
+"tradelite.confirmation.buy.navbar.title" = "Konfirmasi Pembelian";
+"tradelite.confirmation.sell.navbar.title" = "Konfirmasi Penjualan";
+
+"tradelite.seehistory" = "Lihat Riwayat";
+"tradelite.share" = "Bagikan";
+"tradelite.share.title" = "Invest # AsetMasaDepan Now!";
+"tradelite.share.desc" = "Scan to download Indodax App";
+"tradelite.estimationreceive" = "Est. jumlah diterima";
+"tradelite.estmation.desc" = "Jumlah yang diterima merupakan estimasi dan nilainya dapat berubah. Jumlah sebenarnya dapat anda ketahui setelah transaksi berhasil dilakukan.";
+"tradelite.confirmation.transactionSuccess" = "Transaksi Berhasil";
+"tradelite.confirmation.receive" = "Anda berhasil menerima";
+
+"tradelite.buyNow" = "Beli Sekarang";
+"tradelite.sellNow" = "Jual Sekarang";
+
+"tradelite.alert.slippage.title" = "Transaksi tidak dapat diproses";
+"tradelite.alert.slippage.desc" = "Transaksi tidak dapat diproses karena perlindungan batas toleransi harga pada market. Coba lagi dengan harga dan jumlah yang lebih kecil";
+
+"tradelite.alert.transaction.success" = "Transaction Berhasil!";
+
+
+"account.forceupdate.title" = "Versi Terbaru Telah Tersedia";
+"account.forceupdate.desc" = "Kami menambahkan fitur baru dan memperbaiki beberapa bug untuk memberikan pengalaman trading yang lebih baik. Perbaiki aplikasimu ke versi terbaru.";
+"account.forceupdate.button" = "Update Sekarang";
+
+"wallet.transactionHistory.payment.method" = "Metode Pembayaran";
+"wd.idr.totalDeposit" = "Total Diterima";
+"wd.idr.searchNotFound" = "Coba gunakan kata kunci lain untuk menemukan pencarian yang Anda cari";

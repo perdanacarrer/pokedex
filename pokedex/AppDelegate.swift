@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  pokedex
 //
-//  Created by oscar perdana on 01/06/23.
+//  Created by oscar perdana on 03/06/23.
 //
 
 import UIKit
@@ -11,8 +11,8 @@ import CoreData
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
+    var window: UIWindow?
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true
@@ -76,6 +76,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
     }
-
 }
 

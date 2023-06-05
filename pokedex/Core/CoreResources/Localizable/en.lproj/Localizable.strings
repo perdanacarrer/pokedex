@@ -1,0 +1,1541 @@
+/*
+  Localizable.strings
+  CoreResource
+
+ Created by oscar perdana on 01/06/23.
+  
+*/
+
+// MARK: - Search
+"search" 
+// MARK: - Sample Controller
+"sample.btn1" = "change module (simulate change pro to lite)";
+"sample.btn2" = "open other screen";
+"sample.btn3" = "Custom Component Sample";
+"sample.btn4" = "Swiftgen Sample";
+"notificationEmptyTitle" = "No notification yet";
+"notificationEmptySubtitle" = "Your notification list will be shown here";
+"notificationEmptyButton" = "Manage Notification";
+"searchNotFoundTitle" = "No result for the keyword you’re searching";
+"searchNotFoundSubtitle" = "Try to use another keyword to find the coin you’re searching";
+"coinFavoriteEmptyTitle" = "You don't have any favorite coins";
+"coinFavoriteEmptySubtitle" = "Add coins to your favorite list to track your coins with fast and easy";
+"coinFavoriteEmptyButton" = "Explore Market";
+"chartNotFoundTitle" = "No chart data available";
+"errorSSLPinning" = "Your connection is not secure";
+"done" = "Done";
+"exporeIndodax" = "Explore Indodax";
+
+"sample.swiftgen.test" = "this is English language";
+"sample.swiftgen.testWithArgument" = "Hello, my name is %@, bla bla bla %@";
+
+// MARK: - TabBar
+
+"tabBar.title.home" = "Home";
+"tabBar.title.market" = "Market";
+"tabBar.title.trade" = "Trade";
+"tabBar.title.wallet" = "Wallet";
+
+// MARK: - Loading
+"loading.description" = "Please wait...";
+
+// MARK: - General
+
+"general.btn.next" = "Next";
+"general.btn.continue" = "Continue";
+"general.btn.no" = "No";
+"general.btn.copy" = "Copy";
+"general.btn.back" = "Back";
+"general.btn.delete" = "Delete";
+
+//notes dl. specific ke deposit dl
+"general.label.new" = "New";
+"general.label.underMaintenance" = "Under Maintenance";
+"general.label.comingSoon" = "Coming Soon";
+"general.label.chooseOptions" = "Choose an Option";
+"general.label.noInternetConnection" = "Network error";
+
+// MARK: - Deposit IDR - pls change to english text later when available
+"deposit.button.cancelDepositTitle" = "Yes, Cancel";
+"deposit.button.pay" = "Pay";
+"deposit.button.restartPayment" = "Restart Payment";
+"deposit.button.checkPaymentStatus" = "See Payment Status";
+"deposit.button.download" = "Download";
+
+"deposit.textField.amountTextFieldTitle" = "Total Deposit";
+"deposit.textField.amountMinimumPlaceholderText" = "Minimum %@ IDR";
+"deposit.textField.minimumAmountInlineErrorDesc" = "Minimum deposit is %@ IDR";
+"deposit.textField.maximumAmountInlineErrorDesc" = "You’re exceeding the maximum deposit amount";
+"deposit.textField.cashTagPlaceholderText" = "Example: elonmusk";
+"deposit.textField.cashTagMinimumCharacterInlineErrorDesc" = "Minimum cashtag is %@ characters.";
+
+"deposit.label.depositIDR" = "Deposit IDR";
+"deposit.label.paymentGuide" = "Deposit Instructions";
+"deposit.label.virtualAccountNameTitle" = "Virtual Account Name";
+"deposit.label.waitingPaymentTitle" = "Waiting for payment";
+"deposit.label.cashTagTitle" = "$Cashtag";
+"deposit.label.paymentDetailTitle" = "Payment Details";
+"deposit.label.payBeforeTitle" = "Pay Before";
+"deposit.label.timeLeft" = "Time Left";
+"deposit.label.vaPaymentCodetitle" = "Virtual Account Number";
+"deposit.label.paymentCodeTitle" = "Payment Code";
+"deposit.label.cashtagCodeTitle" = "$Cashtag :";
+"deposit.label.totalPaymentTitle" = "Total Deposit";
+"deposit.label.serviceFeeTitle" = "Service Fee";
+"deposit.label.receivedAmountTitle" = "Received Amount";
+"deposit.label.billFormatAmount" = "%@ IDR";
+"deposit.label.emptyStateTitle" = "No transaction yet";
+"deposit.label.emptyStateDesc" = "Every ongoing transactions that waiting for payment will be displayed in this page";
+"deposit.label.instructionNotes" = "Follow the instructions below to make a deposit";
+"deposit.label.vaInstructionNotes" = "Make sure the name listed on the Virtual Account and the name on the Indodax account are correct.";
+
+"deposit.label.depoSuccess" = "Deposit Success!";
+"deposit.label.close" = "Close";
+"deposit.label.depoSuccessDesc" = "The deposit process is successful and your balance will be updated shortly";
+
+"deposit.sheet.deleteConfirmationTitle" = "Cancel Deposit";
+"deposit.sheet.deleteconfirmationDesc" = "Are you sure you want to cancel this deposit?";
+"deposit.sheet.cashTagDesc" = "Use $Cashtag that has been registered on Jenius Pay to make a deposit using Jenius. Make sure the $Cashtag is correct to make the transaction success.";
+
+"deposit.popUp.paymentSuccessTitle" = "Payment Success";
+"deposit.popUp.paymentSuccessDesc" = "Selamat! Pembayaran Anda telah berhasil.";
+"deposit.popUp.paymentTimeOutTitle" = "Payment Period Time’s Out";
+"deposit.popUp.paymentTimeOutDesc" = "Your payment period is expired. Restart your payment process?";
+
+"deposit.snackbar.vaCodeCopiedToClipboard" = "VA Number successfully copied";
+"deposit.snackbar.paymentCodeCopiedToClipboard" = "Payment code successfully copied";
+"deposit.snackbar.saveToDevice" = "Successfully saved in the device";
+"deposit.snackbar.deletePendingFailed" = "Failed to cancel deposit";
+
+// MARK: - Withdraw IDR
+"withdraw.idr.button.addAccountTitle" = "+ Add Address";
+"withdraw.idr.button.changeWithdrawAmount" = "Adjust Amount";
+"withdraw.idr.button.saveAddress" = "Save Address";
+"withdraw.idr.button.addAddress" = "Add Address";
+
+"withdraw.idr.label.withdrawIDRNavigationTitle" = "Withdraw IDR";
+"withdraw.idr.label.chooseMethodNavigationTitle" = "Choose Withdraw Method";
+"withdraw.idr.label.warningBankNotes" = "Bank account and Indodax name have to be match";
+"withdraw.idr.label.warningEwalletNotes" = "Make sure your phone number is registered with %@ before proceeding.";
+"withdraw.idr.label.warningPulsaNotes" = "Withdrawal to phone number will not be charged with service fee";
+"withdraw.idr.label.addPhoneNumberTitle" = "Add Phone Number";
+"withdraw.idr.label.editWithdrawAddressTitle" = "Edit Withdraw Address";
+"withdraw.idr.label.activeBalanceTitle" = "Active Balance";
+"withdraw.idr.label.activeBalanceDesc" = "%@ IDR";
+"withdraw.idr.label.withdrawMethodTitle" = "Withdraw Method";
+"withdraw.idr.label.totalWithdrawTitle" = "Total Withdrawal";
+"withdraw.idr.label.chooseAmountTitle" = "Choose Amount";
+"withdraw.idr.label.withdrawAddressTitle" = "Withdraw Address";
+"withdraw.idr.label.manageWithdrawAddressTitle" = "Manage Withdraw Address";
+"withdraw.idr.accountList.label.emptyStateTitle" = "No saved withdraw address yet";
+"withdraw.idr.accountList.label.emptyStateDesc" = "You can save your bank account and e-wallet as withdraw address here";
+
+"withdraw.idr.textField.phoneNumberTitle" = "Phone Number";
+"withdraw.idr.textField.accountLabelTitle" = "Account Label";
+"withdraw.idr.textField.amountMinimumPlaceholderText" = "Minimum %@ IDR";
+"withdraw.idr.textField.phoneNumberPlaceHolderText" = "Example: 081234567890";
+"withdraw.idr.textField.accountLabelPlaceHolderText" = "Example: Akun BCA, Akun OVO...";
+
+"withdraw.idr.popUp.minimumWithdrawAmountErrorTitle" = "Withdraw amount is not enough";
+"withdraw.idr.popUp.minimumWithdrawAmountErrorDesc" = "The minimum withdraw amount is %@ IDR. Please adjust your withdraw amount to be able to withdraw";
+"withdraw.idr.popUp.limitPerDayErrorTitle" = "Withdraw amount is too big";
+"withdraw.idr.popUp.limitPerDayErrorDesc" = "Your current daily withdraw limit is %@ IDR. Adjust your withdraw amount or send an upgrade limit request";
+"withdraw.idr.popUp.insufficientBalanceErrorTitle" = "Insufficient Balance";
+"withdraw.idr.popUp.insufficientBalanceErrorDesc" = "Make sure your balance is sufficient before making a withdraw";
+"withdraw.idr.popUp.deleteConfirmationDesc" = "Delete withdrawal address?";
+
+"wd.idr.selectBank" = "Select Bank";
+"wd.idr.searchBank" = "Search Bank...";
+"wd.idr.bank" = "Bank";
+"wd.idr.labelAccount" = "Account Label";
+"wd.idr.labelAccountPlaceholder" = "Eg: BCA Account, OVO Account...";
+"wd.idr.accountNumber" = "Account Number";
+"wd.idr.accountNumberPlaceholder" = "1234567890";
+"wd.idr.attention" = "Attention";
+"wd.idr.addBankAccount" = "Add Bank Account";
+"wd.idr.attentionBankInfo" = "Bank account name have to be match with Indodax account name";
+"wd.idr.accountNumberInfo" = "Use bank account in the name of %@";
+
+"wd.idr.ewallet" = "E-Wallet";
+"wd.idr.selectEwallet" = "Select E-Wallet";
+"wd.idr.searchEwallet" = "Search Ewallet...";
+"wd.idr.registeredPhoneNumber" = "Registered Phone Number";
+"wd.idr.attentionEwalletInfo" = "Make sure your phone number has registered in %@ and has a sufficient balance.";
+
+"wd.idr.selectMoneyOrder" = "Select Money Order";
+"wd.idr.searchMoneyOrder" = "Search Money Order...";
+
+"wd.idr.transactionDetails" = "Transaction Details";
+"wd.idr.withdrawDestination" = "Withdraw Destination";
+"wd.idr.serviceFee" = "Service Fee";
+"wd.idr.smsFee" = "SMS Fee";
+"wd.idr.smsFeeInfo" = "(To get rid of SMS Fee, activate Google Authenticator)";
+"wd.idr.receivedAmount" = "Received Amount";
+
+"wd.idr.rupiahIdr" = "Rupiah (IDR)";
+"wd.idr.withdrawConfirm" = "Withdraw Confirmation";
+// END
+
+// MARK: - Transaction History List IDR
+"wallet.transactionHistoryList.cell.depositIDRDesc" = "Deposit IDR at %@";
+"wallet.transactionHistoryList.cell.withdrawIDRDesc" = "Withdraw IDR at %@";
+"wallet.transactionHistoryList.cell.generateVoucherDesc" = "Generate at %@";
+"wallet.transactionHistoryList.cell.redeemVoucherDesc" = "Redeem at %@";
+
+"general.label.attention" = "Attention!";
+"general.label.status" = "Status";
+"general.label.chooseOptions" = "Choose an Option";
+"general.label.emptyData" = "Data is empty";
+"general.btn.close" = "Close";
+"general.btn.tryAgain" = "Try Again";
+"general.btn.continue" = "Continue";
+"general.btn.clickHere" = "click here";
+"general.btn.buy" = "Buy";
+"general.btn.reset" = "Reset";
+"general.btn.confirmation" = "Confirm";
+"general.btn.back" = "Back";
+"general.btn.start" = "Start";
+"general.btn.cancel" = "Cancel";
+"general.market.title" = "Market";
+"general.btn.photo.save" = "Save";
+"general.btn.photo.retake" = "Retake Photo";
+"general.btn.agree.send" = "I Agree";
+"general.btn.save" = "Save";
+"general.btn.next2" = "Next";
+"general.btn.next3" = "Continue";
+"general.btn.send" = "Send";
+"general.btn.iunderstand" = "I Understood";
+"general.btn.save.changes" = "Save Changes";
+"general.btn.done" = "Done";
+"general.btn.yes" = "Yes";
+"general.on" = "ON";
+"general.off" = "OFF";
+"general.history" = "Riwayat";
+"general.buy" = "Buy";
+"general.sell" = "Sell";
+"general.price" = "Price";
+"general.cancel.all" = "Cancel All";
+"general.cancel" = "Batalkan";
+"general.save" = "Save";
+"general.balance" = "Balance:";
+"general.understand" = "I Understand";
+"general.back" = "Back";
+"general.next" = "Next";
+"general.login" = "Login";
+"general.register" = "Register";
+"general.noData" = "No Data";
+
+"general.favorite" = "Favorite";
+"general.idr" = "IDR";
+"general.usdt" = "USDT";
+"general.btc" = "BTC";
+"general.limit.order" = "Limit Order";
+"general.market.order" = "Market Order";
+
+// MARK: - KYC Dialog
+
+"kyc.alert.dialog.not.verified.title" = "Verify Your Account";
+"kyc.alert.dialog.not.verified.description" = "Complete verification process to be able to edit your data and make transaction in Indodax";
+"kyc.alert.dialog.not.verified.positive.btn.title" = "Verify Now";
+
+"kyc.alert.dialog.pending.verification.title" = "Your verification is on process";
+"kyc.alert.dialog.pending.verification.description" = "We are sorry, at this moment you cannot do any crypto asset transaction. We will process your verification in 1x24 hours after we received your application";
+
+"account.photo.max.file.size" = "Maximum file size: 3MB";
+
+"account.general.gender.text" = "Gender";
+"account.general.gender.placeholder" = "Select gender";
+"account.general.gender.male" = "Male";
+"account.general.gender.female" = "Female";
+"account.general.job.text" = "Occupation";
+"account.general.job.placeholder" = "Select Occupation";
+"account.general.aboutIndodax" = "About INDODAX";
+"account.general.desc.settingSheet" = "This feature requires a good connection. And will affect the use of data packages and batteries.";
+"account.general.appSettings" = "App Settings";
+"account.general.withdrawLimit" = "Daily Withdraw Limit";
+"account.general.management.next" = "Agree";
+"account.general.management.cancel" = "Cancel";
+"account.general.management.email.title" = "Email Address";
+"account.general.management.phone.number.title" = "Phone Number";
+"account.general.contact.us" = "Contact Us";
+"account.general.logout" = "Log Out";
+"account.general.activate.feature" = "Activate Feature";
+"account.general.deactivate.feature" = "Disable Feature";
+"account.general.installation.instruction" = "See Installation Guide";
+
+// MARK: - Account
+"account.kyc.intro.title" = "Account Verification";
+"account.kyc.intro.description" = "Let's start verifying the account to keep transactions safe from fraudulent money or fake accounts.";
+"account.kyc.intro.btn.verify" = "Start Verification";
+"account.kyc.intro.btn.later" = "Later";
+
+"account.kyc.summary.menu.1" = "Identity card";
+"account.kyc.summary.menu.2" = "Personal Data";
+"account.kyc.summary.menu.3" = "Face Detection";
+
+"account.kyc.summary.header.title" = "Identity verification";
+"account.kyc.summary.header.description" = "Complete the steps below";
+
+"account.kyc.nationality.header.title" = "Select nationality";
+"account.kyc.nationality.info.label" = "Select citizenship status based on identity card";
+"account.kyc.nationality.textfield.title" = "Citizenship";
+"account.photo.camera.wni.nav.title" = "Take a photo of the ID card";
+"account.photo.camera.wna.nav.title" = "Take passport photo";
+"account.photo.view.nav.title" = "ID card photo";
+"account.photo.view.text.lifetime" = "Lifetime";
+"account.photo.view.text.idcard" = "Identity Photo";
+"account.photo.view.text.error.idEmpty" = "NIK must be fill";
+"account.photo.view.text.error.expiryEmpty" = "Expiry date must be fill";
+
+"account.management.delete.success.title" = "Account Successfully Deleted";
+"account.management.delete.success.description" = "You will be logged out automatically and will be redirected to the homepage";
+"account.management.delete.confirmation.positive" = "Confirm and Delete";
+"account.management.delete.reason.title" = "Select a reason below why you delete your account";
+"account.management.delete.reason.page.title" = "Delete Account Reason";
+"account.management.delete.other.reason.title" = "Delete Account Cause";
+"account.management.delete.reason.title" = "Delete Account Reason";
+"account.management.delete.reason.withdraw" = "Problems in deposit/withdraw";
+"account.management.delete.reason.exchange" = "Migrating to another exchange";
+"account.management.delete.reason.other.account" = "Have another Indodax account";
+"account.management.delete.reason.other" = "Others";
+"account.management.delete.introduction.terms.title" = "Delete Account Disclaimer";
+"account.management.asset.alert.title" = "You still have remaining assets";
+"account.management.asset.alert.description" = "Before deleting account, please recheck the remaining crypto asset in your account";
+"account.management.asset.alert.positive" = "Withdraw Remaining Asset";
+"account.management.asset.alert.negative" = "Delete Account Anyway";
+"account.management.delete.attention" = "Please note that our system will proceed with your request immediately once you click the \"Confirm and Delete\" button";
+"account.management.delete.confirmation.title" = "Delete Account Confirmation";
+"account.management.delete.check" = "You are about to delete an Indodax account with the information below";
+"account.management.recovery.title" = "Welcome Back";
+"account.management.recovery.description" = "Your account is curently inactive. Do you want to recover your account?";
+"account.management.recovery.success.title" = "Account recovery successful!";
+"account.management.recovery.success" = "Your account has been recovered! You can now use your account back";
+"account.management.recovery.btn.title" = "Recover Account";
+
+"account.security.two.factor.authentification" = "Two-Factor Authentication Security (2FA)";
+"account.security.change.password" = "Change password";
+"account.security.change.pin" = "Change PIN";
+"account.security.delete.account" = "Delete Account";
+"account.security.device.session" = "Device Session";
+"account.security.setup.gauth" = "Google Authenticator";
+"account.security.setup.gauth.description.title" = "What is Google Authenticator?";
+"account.security.setup.gauth.description" = "Google Authenticator is an application to strengthen your account security from hacker attacks. This application will produce PIN that will changed from time to time.";
+"account.security.setup.gauth.deactivated.description.title" = "Are you sure you want to disable Google Authenticator feature?";
+"account.security.setup.gauth.deactivated.description" = "Disabling Google Authenticator will decrease the protection of your account.";
+"account.security.setup.gauth.reasons.title" = "Why should you use Google Authenticator?";
+"account.security.setup.gauth.reason.protection" = "Protect account from hacking";
+"account.security.setup.gauth.reason.enhancement" = "Strengthen security";
+"account.security.setup.gauth.reason.easy" = "Easy to use";
+"account.security.setup.gauth.reason.mobility" = "Can be used at Android, iOS, and Desktop";
+"account.security.setup.gauth.reason.cost" = "Prevent SMS cost for every withdrawal";
+"account.security.setup.gauth.preparation.title" = "Activate Google Authenticator";
+"account.security.setup.gauth.qr.instruction" = "Please use the Google Authenticator app to scan the QR code below";
+"account.security.setup.gauth.code.instruction" = "Or enter the code below to your Google Authenticator";
+"account.security.setup.gauth.active.title" = "Google Authenticator Activated";
+"account.security.setup.gauth.success.title" = "Google Authenticator Is Successfully Disabled";
+"account.security.setup.gauth.success" = "For the security of your transactions, Google Authenticator will be required for every login session and withdrawal process.";
+
+"account.textfield.nik.title" = "NIK";
+"account.textfield.nik.placeholder" = "Input NIK";
+"account.textfield.passport.title" = "Passport Number";
+"account.textfield.expiry.title" = "Expired Until";
+"account.textfield.expiry.placeholder" = "01-09-2017";
+
+"account.personal.data.navigation.title" = "Personal data";
+"account.personal.data.menu.1" = "Personal";
+"account.personal.data.menu.2" = "Address";
+"account.personal.data.menu.3" = "Relation";
+"account.personal.data.menu.4" = "Financial";
+"account.personal.error.fillAt" = "Please fill empty data at %@";
+
+"account.personal.info.name.title" = "Full Name";
+"account.personal.info.name.placeholder" = "Input full name";
+"account.personal.info.birthplace.title" = "Place of birth";
+"account.personal.info.birthplace.placeholder" = "Input place of birth ";
+"account.personal.info.dob.title" =  "Date of birth";
+"account.personal.info.dob.placeholder" = "Select Date of birth";
+"account.personal.info.motherName.title" = "Mother's name";
+"account.personal.info.motherName.placeholder" = "Enter the mother's name";
+
+"account.personal.info.error.fullname" = "Full name must be fill";
+"account.personal.info.error.birthplace" = "Place of birth must be fill";
+"account.personal.info.error.dob" = "Date of birth must be fill";
+"account.personal.info.error.gender" = "Gender must be fill";
+"account.personal.info.error.profession" = "Occupation must be fill";
+"account.personal.info.error.motherName" = "Mother's name must be fill";
+
+"account.relation.text.relative.name.title" = "Relative's Name";
+"account.relation.text.relative.name.placeholder" = "Enter the name of the relative";
+"account.relation.text.relative.relation.title" = "Relation to Relative";
+"account.relation.text.relative.relation.placeholder" = "Select Relatives";
+"account.relation.text.relative.phone.title" = "Relative’s Phone Number";
+"account.relation.text.relative.phone.placeholder" = "8123456789";
+
+"account.relation.text.relative.sheet.navigation.title" = "Relationship";
+
+"account.relation.error.relative.name" = "Relative's name must be fill";
+"account.relation.error.relative.relation" = "Relative's relation must be fill";
+"account.relation.error.relative.phone" = "Relative’s phone number must be fill";
+
+// MARK: - LostViewController
+"account.lost.ga.title" = "Email Address";
+"account.lost.ga.placeholder" = "";
+"account.lost.phone.phonenumber.title" = "Phone Number";
+"account.lost.phone.phonenumber.placeholder" = "81234567890";
+"account.lost.ga.phonenumber.placeholder" = "081234567890";
+// MARK: - End LostViewController
+"account.financial.text.yearly.title" = "Income per Year";
+"account.financial.text.yearly.placeholder" = "Select";
+"account.financial.text.fundsource.title" = "Source of funds";
+"account.financial.text.fundsource.placeholder" = "Select";
+"account.financial.text.opening.title" = "Account Purpose";
+"account.financial.text.opening.placeholder" = "Select";
+"account.financial.text.tradingbudget.title" = "Monthly Trading Budget";
+"account.financial.text.tradingbudget.placeholder" = "Select";
+"account.financial.text.owner.title" = "Account Holder";
+"account.financial.text.owner.placeholder" = "Select";
+
+"account.financial.error.yearly" = "Income per year must be fill";
+"account.financial.error.fundsource" = "Source of funds must be fill";
+"account.financial.error.opening" = "Account Purpose must be fill";
+"account.financial.error.tradingbudget" = "Monthly trading budget must be fill";
+"account.financial.error.owner" = "Account Holder must be fill";
+
+"account.address.text.postal.title" = "Postal code";
+"account.address.text.postal.placeholder" = "Enter postal code";
+"account.address.text.country.title" = "Country";
+"account.address.text.country.placeholder" = "Select country";
+"account.address.text.address.title" = "Address Details";
+"account.address.text.province.title" = "Province";
+"account.address.text.province.placeholder" = "Select province";
+"account.address.text.city.title" = "City";
+"account.address.text.city.placeholder" = "Select city";
+
+"account.address.error.country" = "Country must be fill";
+"account.address.error.address" = "Address Details must be fill";
+"account.address.error.province" = "Province must be fill";
+"account.address.error.city" = "City must be fill";
+"account.address.error.postal" = "Postal code must be fill";
+
+"account.terms.navigation.title" = "Requirement";
+"account.terms.agreement.description" = "I acknowledge and agree that all data that has been submitted will be stored by PT Indodax Nasional Indonesia (the Company), and I authorize the Company to manage and or use the data for the benefit of the Company.";
+
+"account.kyc.data.submitted" = "Verification data sent";
+"account.kyc.data.text.description" = "Your verification application is currently under review, and please wait within 1x24 hours.";
+"account.kyc.btn.explore" = "Explore Indodax";
+
+"account.kyc.liveness.dialog.title" = "Face Detection ";
+"account.kyc.liveness.dialog.description.1" = "• For verification purposes, your face will be recorded.";
+"account.kyc.liveness.dialog.description.2" = "• Please remove accessories (goggles, masks, etc.).";
+"account.kyc.liveness.dialog.description.3" = "• Please follow the movement directions.";
+"account.kyc.dialog.btn.title" = "Start";
+
+"account.kyc.camera.rules" = " • Take a photo of the front view of the ID Card.\n\n • Make sure all parts of the Identity Card and writing are clearly visible.\n\n • Identity Cards cannot exceed the expiration date.";
+
+"account.country.blocked" = "Sorry, your country is not listed.";
+"account.country.indonesia" = "Indonesia";
+"account.country.outOfIndonesia" = "Outside of Indonesia";
+
+"account.liveness.review.success.title" = "Face detection success";
+"account.liveness.review.error.title" = "Face detection failed";
+"account.liveness.review.success.description" = "Hooray! You have successfully passed the Face Detection, please proceed to the next stage.";
+"account.liveness.review.error.description" = "You failed to pass the Face Detection Test. Please retest, click the button below:";
+"account.liveness.review.btn.retake" = "Retake Detection";
+
+"account.kyc.confirm.nav.title" = "Data Confirmation";
+"account.kyc.confirm.btn.next" = "Confirmation";
+
+"account.kyc.dialog.text.headline" = "Cancel Verification?";
+"account.kyc.dialog.text.description" = "If you exit the verification page without completing the process, your data will still be saved.";
+"account.kyc.dialog.text.button.continue" = "Continue Verification";
+"account.kyc.dialog.text.button.cancel" = "Yes, Cancel";
+
+"account.kyc.dialog.ocr.error.title" = "Failed to read ID";
+"account.kyc.dialog.ocr.error.description" = "Our system doesn't read your ID.
+Please take another photo.";
+
+"account.country.nav.title" = "Citizenship";
+"account.country.btn.choose" = "Select";
+"account.country.text.countrychosen" = "Country";
+"account.country.text.search" = "Find a country";
+"account.btn.login" = "Log In";
+"account.btn.signin" = "Sign In";
+"account.btn.understand" = "I Understood";
+"account.change.password.title" = "Enter your current password";
+"account.delete.reason.error" = "Please fill Delete Account Reason";
+
+"account.dialog.referral.title" = "Referral Program";
+"account.dialog.referral.desc" = "Indodax Referral will be coming soon in Indodax Mobile App. Keep updated with the latest news on Indodax website page";
+
+/// Login
+"login.info.title" = "Log In with email that has been registered to Indodax";
+"login.email.title" = "Email Address";
+"login.password.title" = "Password";
+"login.forgot.password.title" = "Forgot Password";
+"login.navigation.title" = "Log In";
+"login.button.understand" = "I Understood";
+"login.register.attribute" = "Don't have account? ";
+"login.register.cta" = "Register Now";
+
+"login.error.empty.email" = "Email must filled";
+"login.error.empty.password" = "Password must filled";
+"login.error.format.email" = "Invalid Email Format";
+"login.error.popup.title" = "Attention!";
+
+///Profile
+"profile.general.reason.title" = "Reason of Change";
+"profile.general.reason.placeholder" = "Enter the reason for the replacement";
+"profile.general.additional.reason.placeholder" = "Write down the reason for the replacement";
+"profile.general.dialog.reason.title" = "Select Reason";
+"profile.general.dialog.reason.expired" = "Expired phone number";
+"profile.general.dialog.reason.lost" = "Lost my phone";
+"profile.general.dialog.reason.abroad" = "Go abroad";
+"profile.general.dialog.reason.not.receive.messsage" = "Could not receive message";
+"profile.general.dialog.reason.other" = "Other";
+"profile.success.page.navigation.title" = "Data has been sent!";
+"profile.success.page.info.label" = "We have received your request to change your data. Please wait for a moment, the verification process will be done in 1×24 hours.";
+
+"profile.alert.dialog.pending.title" = "Profile update can't be done";
+"profile.alert.dialog.pending.description" = "We are still verifying your last profile update. Please wait until your last verification is completed before making another changes.";
+
+"profile.alert.dialog.pending.kyc.title" = "Your verification data is on process";
+"profile.alert.dialog.pending.kyc.description" = "We are sorry, at this moment you cannot do any crypto asset transaction. We will process your verification in 1x24 hours after we received your application.";
+
+"profile.myprofile.navigation.title" = "My Profile";
+"profile.myprofile.verification.status.not.verified" = "Not Verified";
+"profile.myprofile.verification.status.verified" = "Verified";
+"profile.myprofile.profile.info.title" = "Profile Info";
+"profile.myprofile.profile.info.name.title" = "Full Name";
+"profile.myprofile.profile.info.username.title" = "Username";
+"profile.myprofile.profile.info.username.copy" = "Username copied";
+"profile.myprofile.profile.info.btn.set.username" = "Set Username";
+"profile.myprofile.personal.data.title" = "Personal Information";
+"profile.myprofile.personal.data.desc" = "This information is confidential. Only you can access, don’t share it to others";
+"profile.myprofile.personal.data.email.title" = "Email";
+"profile.myprofile.personal.data.phone.title" = "Phone Number";
+"profile.myprofile.personal.data.address.title" = "Address";
+"profile.myprofile.personal.data.npwp.title" = "Tax Number";
+"profile.myprofile.personal.data.emergency.title" = "Emergency Contact";
+
+"profile.edit.profile.photo.navigation.title" = "Profile Picture";
+"profile.edit.profile.photo.btn.title" = "Change Profile Picture";
+"profile.edit.profile.photo.btn.camera" = "Take Photo";
+"profile.edit.profile.photo.btn.gallery" = "Choose from Gallery";
+"profile.edit.profile.photo.btn.delete" = "Delete Profile Picture";
+"profile.edit.profile.photo.dialog.btn.delete" = "Delete";
+"profile.edit.profile.photo.dialog.btn.back" = "Back";
+"profile.edit.profile.photo.dialog.discard.title" = "Discard Changes?";
+"profile.edit.profile.photo.adjust.navigation.title" = "Adjust Image";
+"profile.edit.profile.photo.snackbar.success" = "Profile photo updated successfully!";
+"profile.edit.profile.snackbar.error" = "Photo size is too large.";
+"profile.take.photo.navigation.title" = "Take Photo";
+"profile.take.photo.retake.btn.title" = "Retake";
+"profile.take.photo.use.btn.title" = "Use Photo";
+
+"profile.edit.username.navigation.title" = "Set Username";
+"profile.edit.username.body.title" = "Use @username to make it easier for other users to send crypto to you.";
+"profile.edit.username.dbg.label.active" = "Username can only be changed once.";
+"profile.edit.username.dbg.label.min.character" = "Minimum 4 characters";
+"profile.edit.username.dbg.label.already.taken" = "Username is already taken by someone else";
+"profile.edit.username.dbg.label.error.format" = "Can only use letters, numbers, “_”, and “-”";
+"profile.edit.username.snackbar.success" = "Username has been changed!";
+
+"profile.edit.email.navigation.title" = "Edit Email";
+"profile.edit.email.info.label" = "Make sure your email is active to keep your account safe";
+"profile.edit.email.new.email.title" = "New Email";
+"profile.edit.email.confirm.email.title" = "Confirm New Email";
+"profile.edit.email.error.format.email" = "Please use the valid format of the email";
+"profile.edit.email.error.email.not.match" = "Confirmation email didn’t match the entered email";
+
+"profile.edit.primary.number.navigation.title" = "Edit Primary Number";
+"profile.edit.primary.number.info.label" = "Make sure your number number is active to keep your account safe";
+"profile.edit.primary.number.new.number.title" = "New Phone Number";
+"profile.edit.primary.number.snackbar.success" = "Primary Number successfully updated!";
+
+"profile.edit.address.navigation.title" = "Change Address";
+"profile.edit.address.info.label" = "Use the same address with address on ID Card";
+"profile.edit.address.registered.address.title" = "Registered Address";
+"profile.edit.address.new.address.title" = "New Address";
+"profile.edit.address.province.title" = "Province";
+"profile.edit.address.province.placeholder" = "Select Province";
+"profile.edit.address.city.title" = "City";
+"profile.edit.address.city.placeholder" = "Select City";
+"profile.edit.address.postal.code.title" = "Postal code";
+"profile.edit.address.snackbar.success" = "Address successfully updated!";
+
+"profile.edit.npwp.navigation.title" = "Edit NPWP Number";
+"profile.edit.npwp.info.label" = "Make sure your NPWP number is correct to keep your account safe";
+"profile.edit.npwp.number.npwp.title" = "Tax Number";
+"profile.edit.npwp.registered.npwp.title" = "Registered Tax Number";
+"profile.edit.npwp.new.npwp.title" = "New Tax Number";
+"profile.edit.npwp.snackbar.success" = "Tax Number successfully updated!";
+
+"profile.emergency.number.about.navigation.title" = "About Emergency Contact";
+"profile.emergency.number.what.title" = "What?";
+"profile.emergency.number.what.description" = "We encourage you to review the information for Emergency Contacts that you have included in your account. If you haven't set Emergency Contacts in your account, we recommend that you do so now.";
+"profile.emergency.number.why.title" = "Why?";
+"profile.emergency.number.why.description" = "An Emergency Contact is someone 18 years of age or older whom you authorize us to contact regarding your account, particularly if we suspect that your account may be subject to financial exploitation or we have a concern about your health status. Older customers who may have cognitive impairment or health issues may want to set an Emergency Contact on their account, but setting an Emergency Contact on your account is also useful for other reasons.";
+"profile.emergency.number.what.can.title" = "What can i do?";
+"profile.emergency.number.what.can.description" = "If you wish to edit the Emergency Contacts in your account, you can provide their information by clicking continue below. Please list only contact persons who are over 18 years of age.";
+"profile.emergency.number.btn.title" = "Continue";
+
+"profile.edit.emergency.number.navigation.title" = "Edit Emergency Contact";
+"profile.edit.emergency.number.info.label" = "Make sure emergency contacts are active and reachable to keep your account safe.";
+"profile.edit.emergency.number.full.name.title" = "Full Name";
+"profile.edit.emergency.number.full.name.placeholder" = "Emergency contact's full name";
+"profile.edit.emergency.number.relationship.title" = "Relatives";
+"profile.edit.emergency.number.relationship.placeholder" = "Select Relation";
+"profile.edit.emergency.number.relative.number.title" = "Relative Phone Number";
+"profile.edit.emergency.number.snackbar.success" = "Emergency contact updated successfully!";
+
+/// Forgot Password
+"account.forgotpassword.navigation.title" = "Forgot Password";
+"account.forgotpassword.title" = "Input your registered email to receive verification code";
+"account.forgotpassword.submit" = "Create New Password";
+
+/// Create Password
+"account.createpassword.title" = "Create New Password";
+"account.createpassword.info" = "Input new password to change your old password";
+"account.createpassword.submit" = "Change Password";
+"account.createpassword.dialog.info.description1" = "Use strong password";
+"account.createpassword.dialog.info.description2" = "Don’t use the same password you use at another website";
+"account.createpassword.dialog.info.description3" = "Indodax account will automatically be logged out from all devices if password is changed";
+"account.createpassword.confirmation.label" = "Confirm Password";
+
+// Password change
+"account.password.change.navigation.title" = "Password Change";
+"account.password.change.description" = "Your password is successfully changed. Please use your new password to login to your account";
+"account.suspended.navigation.title" = "Account Locked";
+"account.suspended.description" = "After changing your password, your account will be locked. To access your account again, verify it via the OTP code we sent";
+"account.suspended.button.title" = "Submit Verification Code";
+
+
+/// Account View
+"account.menu.personalSettings" = "Personal Settings";
+"account.menu.accountSecurity" = "Account Security";
+"account.menu.pushNotification" = "Push Notification";
+"account.menu.referralProgram" = "Referral Program";
+"account.menu.customerService" = "Customer Services";
+"account.menu.contactUs" = "Contact Us";
+"account.menu.liveChat" = "Live Chat";
+"account.menu.logout" = "Log Out";
+"account.section.helpCenter.title" = "Help Center";
+"account.btn.register" = "Register";
+"account.title" = "Account Settings";
+"account.dialog.rejectedKYC.title" = "Verification Rejected";
+"account.dialog.rejectedKYC.firstText" = "Your verification submission is rejected because: \n\n";
+"account.dialog.rejectedKYC.listItem.blurryID" = "Identity card information blurry";
+"account.dialog.rejectedKYC.listItem.nameNotMatch" = "Full name didn’t matched with ID card";
+"account.dialog.rejectedKYC.listItem.selfPotraitBlurry" = "Self portrait blurry";
+"account.dialog.rejectedKYC.listItem.selfieTooClose" = "Selfie with ID card too close";
+"account.dialog.rejectedKYC.lastText" = "\nYou can fix it by restarting verification process so we can process your account";
+"account.btn.restartVerification" = "Restart Verification";
+"account.dialog.btn.back" = "Back";
+"account.kycbox.btn.verifyNow" = "Verify Now";
+"account.kycbox.title.notVerified" = "Verify Your Account";
+"account.kycbox.desc.notVerified" = "Please verify your account to start your transaction";
+"account.kycbox.title.waitingVerification" = "Processing Account Verification";
+"account.kycbox.desc.waitingVerification" = "Your account is on verification process. Please wait within 24 hours to finish";
+"account.kycbox.title.verificationRejected" = "Account Verification Rejected";
+"account.kycbox.desc.verificationRejected" = "We're sorry your account didn't pass the verification process. Make another request and restart the verification.";
+"account.pillView.verified" = "Verified";
+"account.pillView.notVerified" = "Not Verified";
+"account.dialog.logout.title" = "Are you sure you want to log out?";
+"account.dialog.withdrawLimit.desc" = "Daily Withdraw Limit will be coming soon in the Indodax application. Currently you can apply for a Daily Withdraw Limit through the Indodax website.";
+"account.dialog.withdrawLimit.btn.dailyLimit" = "What is Daily Limit Increase?";
+"account.dialog.invalid.password.title" = "Reenter Password";
+"account.dialog.invalid.password.description" = "The password you have entered is incorrect, please reenter your password.";
+"account.dialog.create.password.info.title" = "Password Change Warning";
+"account.dialog.create.password.failed.title" = "Recheck Password";
+"account.dialog.create.password.failed.description" = "Password does not matched, please retype password.";
+
+/// About Indodax
+"account.about.menu.aboutUs" = "About Us";
+"account.about.menu.tnc" = "Terms and Conditions";
+"account.about.menu.privacyPolicy" = "Privacy Policy";
+"account.about.menu.appReview" = "Leave a Review";
+"account.about.menu.facebook" = "Facebook";
+"account.about.menu.twitter" = "Twitter";
+"account.about.menu.youtube" = "Youtube";
+"account.about.menu.instagram" = "Instagram";
+"account.about.menu.linkedin" = "Linkedin";
+"account.about.menu.telegram" = "Telegram";
+"account.about.menu.discord" = "Discord";
+"account.about.section.followUs.title" = "Follow Us on";
+"account.about.desc.appVersion" = "Version %@";
+
+/// App Settings
+"account.settings.menu.widget" = "Widget";
+"account.settings.menu.language" = "Language";
+"account.settings.menu.backgroundTimer" = "Background Timer";
+"account.settings.menu.realtimeMarket" = "Realtime Market";
+"account.settings.menu.InstallationID" = "Installation ID";
+"account.settings.sheet.title.changeLanguage" = "Switch Language";
+"account.settings.sheet.headline.activateTimer" = "Enable Background Timer?";
+"account.settings.sheet.action.activate" = "Enable";
+"account.settings.sheet.headline.deactivateTimer" = "Disable Background Timer?";
+"account.settings.sheet.desc.deactivateTimer" = "Disabling Realtime Market will turn off your alarms and widgets. Are you sure?";
+"account.settings.sheet.action.deactivate" = "Disable";
+"account.settings.sheet.headline.activateRealtimeMarket" = "Enable Realtime Market?";
+"account.settings.sheet.headline.deactivateRealtimeMarket" = "Disable Realtime Market?";
+"account.settings.sheet.desc.deactivateRealtimeMarket" = "Disabling Realtime Market will turn off the real time feature in your market. Are you sure?";
+"account.settings.languages.title.id" = "Bahasa";
+"account.settings.languages.title.en" = "English";
+"account.settings.message.installationIdCopied" = "Installation ID has been copied";
+
+/// Register Account
+"register.navigation.title" = "Register Account";
+"register.text.infolabel" = "Use email and phone number to register";
+"register.text.email.title" = "Email Address";
+"register.text.email.placeholder" = "Enter your Email Address";
+"register.text.phone.title" = "Phone Number";
+"register.text.phone.placeholder" = "81234567890";
+"register.text.password.title" = "Current Password";
+"register.text.password.placeholder" = "Enter your current password";
+"register.btn.eighthChar" = "8+ characters";
+"register.btn.uppercase" = "1 uppercase";
+"register.btn.lowercase" = "1 lowercase";
+"register.btn.specialChar" = "symbol or number";
+"register.btn.register" = "Create Account";
+"register.text.termsCondition" = "Terms & Conditions";
+"register.text.older" = "I am 18 years or older and agree to the %@";
+"register.text.error.email.empty" = "Email must filled";
+"register.text.error.email.format" = "Invalid Email Format";
+"register.text.error.phone.empty" = "Phone Number must filled";
+"register.text.error.phone.format" = "Phone Number must used number";
+"register.text.error.password.empty" = "Password must filled";
+
+// MARK: - Authentication
+/// PIN
+"pin.navigation.title.verify" = "Enter Your PIN";
+"pin.navigation.title.create.pin" = "Enter PIN";
+"pin.navigation.title.confirm.create.pin" = "Enter PIN";
+"pin.insert.existing.pin.description" = "Enter current PIN code";
+"pin.changed.navigation.insert.new.pin" = "Enter New PIN";
+"pin.button.forgot" = "Forgot PIN";
+"pin.navigation.title.repin" = "Confirm New PIN";
+"pin.description.insertNew" = "Set 6 digit PIN code to secure your account";
+"pin.description.repin" = "Reenter your PIN to confirm";
+"pin.description.nomatch" = "PIN not match";
+"pin.more.helpSupport" = "Help & Support";
+"pin.more.logout" = "Logout";
+"pin.confirm.error" = "Incorrect PIN, please try again";
+"pin.navigation.insert.existing.pin" = "Enter PIN";
+"pin.changed.insert.new.pin.description" = "Set new 6-digit PIN code";
+"pin.changed.navigation.confirm.new.pin" = "Enter New PIN";
+"pin.changed.confirm.new.pin.description" = "Reenter 6-digit PIN code to confirm";
+"pin.changed.success.title" = "PIN Is Successfully Changed";
+"pin.changed.success.description" = "PIN is successfully changed, please enter new PIN to access your account.";
+"pin.changed.success.btn.ok" = "OK";
+"pin.changed.cancel.description" = "Are you sure you want to cancel this process?";
+"pin.changed.cancel.btn.dialog" = "Cancel Change PIN";
+"pin.forgot.navigation.insert.new.pin" = "Enter New PIN";
+"pin.forgot.navigation.confirm.new.pin" = "Confirm New PIN";
+
+/// PhoneNumber OTP
+"phone.otp.description.phone" = "Enter the last 4 digits of the phone number that calls you as the verification code";
+"phone.otp.description.sms" = "Enter the OTP code from the SMS you received";
+"phone.otp.btn.lost.phone" = "Lost Phone Number?";
+"phone.otp.request.sms.resend" = "Enter the 6 digit code from the SMS you received";
+
+"phone.reset.success.title" = "Phone Number Change Successful";
+"phone.reset.success.description" = "Happy! Phone Number Change has been successfully done, please login again.";
+
+"gauth.otp.textfield.title" = "Google Authenticator Code";
+"gauth.otp.description.info" = "Enter a 6 digit of code from Google Authenticator";
+"gauth.otp.btn.lost.gauth" = "Lost Google Authenticator?";
+"gauth.otp.attention.info" = "Please make sure your Google Authenticator feature is active in order to receive verification code";
+"gauth.reset.success" = "Reset Google Authenticator Successfully";
+"gauth.reset.success.description" = "Reset Google Authenticator has been successfully done, and please login again.";
+
+/// Liveness
+"liveness.camera.access" = "Please allow camera access to complete the Face Detection Test";
+"liveness.error.navigation.title" = "Face Detection fail";
+"liveness.error.btn.retake" = "Try again";
+"liveness.error.btn.retry.liveness" = "Retake Face Detect";
+"liveness.error.description.text" = "Please try again or contact our Customer Support and report the Error ID. %@";
+"liveness.error.description.cta" = "[Copy Error ID]";
+"liveness.error.success.copyid" = "Success copied Error ID";
+
+/// Verification
+"verification.navigation.title.verify" = "Verify";
+"verification.text.info" = "Enter code that has been sent to your email and phone number";
+"verification.text.email.title" = "Verify Email (6 Digit)";
+"verification.text.email.prefix" = "X-";
+"verification.text.phone.title.citcall" = "Verify Phone Number (4 digit)";
+"verification.text.phone.title.sms" = "Verify Phone Number (6 digit)";
+"verification.text.phone.placeholder.citcall" = "Enter Phone Number";
+"verification.text.phone.placeholder.sms" = "Enter Phone Number";
+"verification.text.gauth.title" = "Google Authenticator (6 Digit)";
+"verification.btn.send.otp" = "Send OTP";
+"verification.btn.resend.otp" = "Resend OTP";
+"verification.btn.resend.timer" = "Resend (%@ second)";
+"verification.btn.next.otp" = "Verify";
+"verification.citcall" = "Missed Call";
+
+"verification.text.infobox.email" = "Verification code has been sent to %@";
+"verification.text.infobox.citcall" = "A missed call has been made to %@. Enter the last 4 digits of the number that calls you as verification code.";
+"verification.text.infobox.citcall.short" = "A missed call has been made to %@.";
+"verification.text.infobox.sms" = "We’ve sent an OTP code through SMS to your phone number %@.";
+
+"email.otp.navigation.title" = "Email Verification";
+"email.otp.text.description" = "Enter the code we've sent to your email";
+"email.otp.btn.resend" = "Resend OTP";
+"email.otp.btn.resendTimer" = "Resend OTP (%@ second)";
+
+/// Lost
+"lost.ga.navigation.title" = "Lost Google Authenticator";
+"lost.phone.navigation.title" = "Lost Phone Number?";
+"lost.ga.info.title" = "Enter the email and mobile number that you used to receive the verification code";
+"lost.phone.info.title" = "Enter a new mobile number to replace your old number";
+"lost.error.empty.email" = "Email must filled";
+"lost.error.empty.phone" = "Phone Number must filled";
+"lost.error.format.email" = "Invalid Email Format";
+"lost.error.format.phone" = "Invalid Phone Number Format";
+"lost.error.combination" = "The code entered is invalid";
+"lost.error.empty.change.reason" = "Reason for Replacement must filled";
+"lost.error.empty.other.reason" = "Reason for Replacement must filled";
+"lost.phone.reason.title" = "Reason for Replacement";
+"lost.phone.reason.placeholder" = "Select Reason for Replacement";
+"lost.phone.other.reason.placeholer" = "Write down the reason for the replacement";
+/// Forgot PIN
+"forgot.pin.navigation.title" = "Forgot PIN";
+"forgot.pin.text.info" = "Enter your password to reset your PIN";
+"forgot.pin.save.pin.label" = "PIN Successfully Saved";
+"forgot.pin.error.empty.ga" = "Google Authenticator Code must filled";
+"forgot.pin.error.empty.otp" = "Verification Code (OTP) must filled";
+"forgot.pin.error.combination" = "Incorrect PIN, please try again";
+"forgot.pin.otp.phone.title" = "Verification Code (OTP)";
+"forgot.pin.otp.phone.label" = "Enter the last 4 digits of the phone number that calls you as the verification code";
+"forgot.pin.make.new.pin" = "Enter New PIN";
+"reset.pin.title.success" = "Reset PIN Success";
+"reset.pin.description.success" = "You successfully reset your PIN. Use your new PIN to access your account";
+
+// MARK: - Onboarding
+"onboarding.btn.home" = "Home";
+"onboarding.btn.register" = "Register";
+"onboarding.text.alreadyHaveAccount" = "Already have an account? %@";
+"onboarding.text.login" = "Login";
+
+"onboarding.menu.title.1" = "Fits Everyone’s Needs";
+"onboarding.menu.title.2" = "More Than Secure";
+"onboarding.menu.title.3" = "Place to Trade & Learn";
+"onboarding.menu.description.1" = "Creating the Best Trading Experience for Everyone with Lite and Pro Mode";
+"onboarding.menu.description.2" = "Save Your #AsetMasaDepan safely at Indodax";
+"onboarding.menu.description.3" = "Learn the most updated knowledge and set your own trading strategy";
+
+// MARK: - Modal
+"modal.help.logout.title" = "Help and Log Out";
+"modal.help.logout" = "Help & Log Out";
+
+// MARK: - Wallet
+"wallet.general.save" = "Save";
+"wallet.general.share" = "Share";
+"wallet.general.understood" = "I Understood";
+"wallet.general.address" = "Address";
+"wallet.general.username" = "Username";
+"wallet.general.network" = "Network";
+"wallet.general.depositNavigationTitle" = "Deposit %@";
+"wallet.general.success" = "Success";
+"wallet.general.pending" = "Pending";
+"wallet.general.waiting" = "Wait";
+"wallet.general.cancelled" = "Cancel";
+"wallet.general.bounding" = "Bounding";
+"wallet.general.unbounding" = "Unbounding";
+"wallet.general.earning" = "Earning";
+"wallet.general.successCancelTransaction" = "Transaction successfully canceled";
+"wallet.general.yes" = "Yes";
+"wallet.general.no" = "No";
+
+// section for main wallet page
+"wallet.header.title" = "Estimated Asset Value";
+"wallet.header.value" = "%@ IDR";
+"wallet.header.depositButton" = "Deposit";
+"wallet.header.withdrawButton" = "Withdraw";
+"wallet.header.earnButton" = "Earn";
+"wallet.hideZeroBalance" = "Hide 0 Balance";
+"wallet.searchCoin" = "Search Coin";
+"wallet.emptyResultSearchTitle" = "No result for the keyword you’re searching";
+"wallet.emptyResultSearchSubtitle" = "Try to use another keyword to find the coin you’re searching";
+"wallet.emptyDataTitle" = "No Assets Available";
+"wallet.emptyDataSubtitle" = "Please deposit rupiah to start activities";
+"wallet.maintenanceLabel" = "This coin is on maintenance";
+"wallet.estimatedAssetAmountInfoViewTitle" = "Estimated Asset Value";
+"wallet.estimatedAssetAmountInfoViewDescription" = "Estimated Asset Value is the estimation of the total value of all the assets you own.";
+"wallet.estimatedAssetAmountTitle" = "Your estimated asset value:";
+"wallet.estimatedAssetAmountValue" = "%@ IDR";
+
+//section for asset detail idr
+"wallet.assetDetailIDR.navigationTitle" = "Rupiah Wallet";
+"wallet.assetDetailIDR.infoView.title" = "Total IDR Asset";
+"wallet.assetDetailIDR.infoView.remainingBalanceDesc" = "Remaining balance %@ IDR";
+
+//section for asset detail coin
+"wallet.assetDetailCoin.emptyViewTitle" = "No transaction history yet";
+"wallet.assetDetailCoin.emptyViewDescription" = "Your transaction activities will be saved and can be seen on this page";
+"wallet.assetDetailCoin.historyTitle" = "Transaction History";
+"wallet.assetDetailCoin.navigationTitle" = "%@ Wallet";
+"wallet.assetDetailCoin.marketSelectionTitle" = "Select Market";
+"wallet.assetDetailCoin.infoView.title" = "Total %@ Asset";
+"wallet.assetDetailCoin.infoView.description" = "Total %@ Asset is the total amount of all the %@ assets you own.";
+"wallet.assetDetailCoin.infoView.totalAssetTitle" = "Your total %@ asset:";
+"wallet.assetDetailCoin.infoView.activeSaldoTitle" = "Active Balance";
+"wallet.assetDetailCoin.infoView.frozenSaldoTitle" = "Frozen Balance";
+"wallet.assetDetailCoin.infoView.frozenSaldoInfo" = "What is frozen balance?";
+"wallet.assetDetailCoin.changeRootConfirmation.title" = "Attention";
+"wallet.assetDetailCoin.changeRootConfirmation.descriptionPro" = "Please switch to Indodax LITE to access this asset market page";
+"wallet.assetDetailCoin.changeRootConfirmation.descriptionLite" = "Please switch to Indodax PRO to access this asset market page";
+
+//section for history transaction list
+"wallet.transactionHistoryList.navigation" = "Transaction History";
+"wallet.transactionHistoryList.emptyViewTitle" = "No transaction history yet";
+"wallet.transactionHistoryList.emptyViewSubtitle" = "Your transaction activities will be saved and can be seen on this page";
+"wallet.transactionHistoryList.cell.buyCoin" = "Buy at %@";
+"wallet.transactionHistoryList.cell.sellCoin" = "Sell at %@";
+"wallet.transactionHistoryList.cell.withdrawCoin" = "Withdraw at %@";
+"wallet.transactionHistoryList.cell.depositCoin" = "Deposit at %@";
+"wallet.transactionHistoryList.cell.earnCoinStaking" = "Earn at %@";
+"wallet.transactionHistoryList.cell.earnCoinUnstaking" = "Unstaking at %@";
+"wallet.transactionHistoryList.cell.earnCoinClaimReward" = "Claim Reward at %@";
+
+//section for history transaction filter
+"wallet.historyFilter.transactionHistoryFilterNavigation" = "Filter Transaction History";
+"wallet.historyFilter.earnHistoryFilterNavigation" = "Filter Earn History";
+"wallet.historyFilter.transactionPeriodTitle" = "Transaction Period";
+"wallet.historyFilter.periodSelectionTitle" = "Select Period";
+"wallet.historyFilter.transactionType.title" = "Transaction Type";
+"wallet.historyFilter.transactionType.deposit" = "Deposit";
+"wallet.historyFilter.transactionType.withdraw" = "Withdraw";
+"wallet.historyFilter.transactionType.buy" = "Buy";
+"wallet.historyFilter.transactionType.sell" = "Sell";
+"wallet.historyFilter.transactionType.earn" = "Earn";
+"wallet.historyFilter.assetTypeTitle" = "Select Coin";
+"wallet.historyFilter.assetTypePlaceholder" = "All Coin";
+
+//section for history detail
+"wallet.transactionHistory.transactionDetail" = "Transaction Details";
+"wallet.transactionHistory.transactionId" = "Transaction ID";
+"wallet.transactionHistory.tx" = "TX";
+"wallet.transactionHistory.time" = "Time";
+"wallet.transactionHistory.method" = "Method";
+"wallet.transactionHistory.status" = "Status";
+"wallet.transactionHistory.recipientAddress" = "Recipient Address";
+"wallet.transactionHistory.senderAddress" = "Sender Address";
+"wallet.transactionHistory.coinPrice" = "Coin Price";
+"wallet.transactionHistory.purchaseAmount" = "Purchase Amount";
+"wallet.transactionHistory.soldAmount" = "Sold Amount";
+//%% to return % string, % only didnt work
+"wallet.transactionHistory.serviceFeePercent" = "Service Fee 0.51%%";
+"wallet.transactionHistory.serviceFee" = "Service Fee";
+"wallet.transactionHistory.taxDeduction" = "Tax Deduction 0.11%%";
+"wallet.transactionHistory.receivedAmount" = "Received Amount";
+"wallet.transactionHistory.totalEarn" = "Total Earn %@";
+"wallet.transactionHistory.total" = "Total in %@";
+"wallet.transactionHistory.tax" = "Tax";
+"wallet.transactionHistory.receivedInterest" = "Received Interest";
+"wallet.transactionHistory.staking" = "Staking";
+"wallet.transactionHistory.unstaking" = "Unstaking";
+"wallet.transactionHistory.claimReward" = "Claim Reward";
+
+"wallet.transactionHistory.helpCenterTitle" = "Help Center";
+"wallet.transactionHistory.helpCenterDescription" = "If you encounter any problem with the transaction, please contact our customer service and provide details and Transaction ID.";
+"wallet.transactionHistory.goToHelpCenterButton" = "Contact Customer Service";
+"wallet.transactionHistory.transactionIdCopied" = "Transaction ID successfully copied";
+"wallet.transactionHistory.txCopied" = "TX successfully copied";
+
+"wallet.transactionHistory.navigationTitleBuyCoin" = "Buy %@";
+"wallet.transactionHistory.navigationTitleSellCoin" = "Sell %@";
+"wallet.transactionHistory.navigationTitleWithdrawCoin" = "Withdraw %@";
+"wallet.transactionHistory.navigationTitleDepositCoin" = "Deposit %@";
+"wallet.transactionHistory.navigationTitleEarnCoin" = "Earn %@";
+
+"wallet.transactionHistory.titleBuyCoin" = "Received Amount";
+"wallet.transactionHistory.titleSellCoin" = "Received Amount";
+"wallet.transactionHistory.titleWithdrawCoin" = "Total Withdrawal";
+"wallet.transactionHistory.titleDepositCoin" = "Total Deposit";
+
+"wallet.transactionHistory.infoBuyTitle" = "Received Amount";
+"wallet.transactionHistory.infoBuyDescription" = "Asset amount that you get from a transaction. This total already included deductions from tax and service fee.";
+"wallet.transactionHistory.infoSellTitle" = "Received Amount";
+"wallet.transactionHistory.infoSellDescription" = "Asset amount that you get from a transaction. This total already included deductions from tax and service fee.";
+"wallet.transactionHistory.infoWithdrawTitle" = "Total Withdrawal";
+"wallet.transactionHistory.infoWithdrawDescription" = "Total balance or coin that was withdrawn from your wallet. This amount doesn’t include deductions from tax and service fee.";
+"wallet.transactionHistory.infoDepositTitle" = "Total Deposit";
+"wallet.transactionHistory.infoDepositDescription" = "Total balance or coin that was sent to your wallet. This amount doesn’t include deductions from tax or service fee.";
+
+"wallet.transactionHistory.cancelButton" = "Cancel";
+"wallet.transactionHistory.resendButton" = "Resend Email";
+"wallet.transactionHistory.cancelConfirmationTitle" = "Are you sure you want to cancel this transaction?";
+
+//section for asset detail coin header
+"wallet.assetDetailCoinHeader.title" = "Total %@ Asset";
+"wallet.assetDetailCoinHeader.deposit" = "Deposit";
+"wallet.assetDetailCoinHeader.withdraw" = "Withdraw";
+"wallet.assetDetailCoinHeader.market" = "Market";
+"wallet.assetDetailCoinHeader.limit" = "WD Limit";
+
+//section for asset detail earn view
+"wallet.assetDetailCoinEarn.title" = "INDODAX Earn";
+"wallet.assetDetailCoinEarn.description" = "Earn daily profit from the interest of crypto invest";
+
+//section for network selection view
+"wallet.networkSelection.title" = "Select Coin Network";
+"wallet.networkSelection.maintenanceLabel" = "Maintenance";
+
+//section for all network maintenance
+"wallet.allNetworkMaintenance.title" = "Networks under maintenance";
+"wallet.allNetworkMaintenance.description" = "All networks for this coin are under maintenance. Please wait for a moment and try again";
+
+//section for failed generate address
+"wallet.failedGenerateAddress.title" = "Failed to create network";
+"wallet.failedGenerateAddress.description" = "Unable to create network address. Please check your connection and try again after a while";
+
+//section for load page failure
+"wallet.loadPageFailure.title" = "Failed to load page";
+"wallet.loadPageFailure.description" = "Unable to load page. Please check your internet connection and try again after a while";
+
+//section for withdraw suspended
+"wallet.withdrawSuspended.title" = "Coin Withdraw Suspended";
+"wallet.withdrawSuspended.description" = "Withdraw coin can only be done 72 hours after you made a password change";
+"wallet.withdrawIDRSuspended.title" = "Withdraw IDR Suspended";
+"wallet.withdrawIDRSuspended.description" = "Withdraw IDR can only be done 72 hours after you made a password change";
+
+//section for agreement deposit coin
+"wallet.agreementDeposit.agreementTitle" = "Make sure the token and deposit address is correct";
+"wallet.agreementDeposit.agreementDescription" = "Sending token that doesn’t match with the listed address will result the token to be lost";
+"wallet.agreementDeposit.taxTitle" = "Tax Notice";
+"wallet.agreementDeposit.taxDescription" = "The recipient will be charged with the tax of %@ from the total deposit. See Tax Info Details";
+"wallet.agreementDeposit.taxDescriptionHyperlink" = "See Tax Info Details";
+
+//section for deposit coin
+"wallet.deposit.balanceTitle" = "%@ Balance (%@)";
+"wallet.deposit.addressTitle" = "%@ Deposit Address";
+"wallet.deposit.infoTitle" = "%@ Info";
+"wallet.deposit.infoWarningDeveloper" = "Read official information from developer";
+"wallet.deposit.imageSaved" = "Image has been saved!";
+"wallet.deposit.textCopied" = "Text successfully copied!";
+
+//section for withdraw coin notice
+"wallet.withdrawCoinNotice.navigation" = "Withdraw %@";
+"wallet.withdrawCoinNotice.title" = "Coin will be sent to wallet in 60 minutes";
+"wallet.withdrawCoinNotice.description" = "All transactions made are final. Once successfully processed, the transaction cannot be canceled or refunded";
+
+//section for withdraw coin method selection
+"wallet.withdrawCoinMethod.title" = "Withdraw Coin Method";
+"wallet.withdrawCoinMethod.address.title" = "Address";
+"wallet.withdrawCoinMethod.address.description" = "Send coin through the network address or Indodax address";
+"wallet.withdrawCoinMethod.username.title" = "Username";
+"wallet.withdrawCoinMethod.username.description" = "Send coin with username to Indodax members";
+
+//section for withdraw coin
+"wallet.withdrawCoin.navigation" = "Withdraw %@";
+"wallet.withdrawCoin.assetAmountTitle" = "Saldo %@ (%@)";
+"wallet.withdrawCoin.method.title" = "Withdraw Method";
+"wallet.withdrawCoin.method.address" = "Address";
+"wallet.withdrawCoin.method.username" = "Username";
+"wallet.withdrawCoin.addressLabel" = "Label";
+"wallet.withdrawCoin.recipientAddressTitle" = "Recipient Address";
+"wallet.withdrawCoin.recipientAddressPlaceholder" = "Enter or paste address here";
+"wallet.withdrawCoin.recipientUsernameTitle" = "Indodax Username";
+"wallet.withdrawCoin.recipientUsernamePlaceholder" = "Enter Indodax Username";
+"wallet.withdrawCoin.networkTitle" = "Network";
+"wallet.withdrawCoin.networkPlaceholder" = "Select Network";
+"wallet.withdrawCoin.attentionNetworkBoxTitle" = "Make sure the network is correct";
+"wallet.withdrawCoin.attentionNetworkBoxDescription" = "Wrong network will cause tokens to be lost";
+"wallet.withdrawCoin.amountTitle" = "Coin Withdraw Amount";
+"wallet.withdrawCoin.amountMaxButton" = "Max";
+"wallet.withdrawCoin.amountErrorLabel" = "Invalid Amount: Min. and Max. amount is %@ - %@";
+"wallet.withdrawCoin.informationBoxTitle" = "%@ Info";
+"wallet.withdrawCoin.increaseWdLimitNotice" = "Daily limit for withdrawal is %@ per day ( to raise the limit, %@ ).";
+"wallet.withdrawCoin.continueButton" = "Continue";
+
+//section for scan qr
+"wallet.scanqr.navigation" = "Scan QR Code";
+"wallet.scanqr.instruction" = "Adjust the QR Code to be in the camera";
+"wallet.scanqr.failed.title" = "Failed to scan QR Code";
+"wallet.scanqr.failed.description" = "An error occurred in the scanning process. Please re-scan the QR Code";
+
+//section for withdraw coin confirmation
+"wallet.withdrawCoinConfirmation.navigation" = "Withdraw Confirmation";
+"wallet.withdrawCoinConfirmation.totalWithdrawAmountTitle" = "Total Withdrawal";
+"wallet.withdrawCoinConfirmation.transactionDetailTitle" = "Transaction Details";
+"wallet.withdrawCoinConfirmation.recipientAddressTitle" = "Recipient Address";
+"wallet.withdrawCoinConfirmation.recipientUsernameTitle" = "Indodax Username";
+"wallet.withdrawCoinConfirmation.networkTitle" = "Network";
+"wallet.withdrawCoinConfirmation.feeTitle" = "Service Fee";
+"wallet.withdrawCoinConfirmation.receivedAmountTitle" = "Received Amount";
+"wallet.withdrawCoinConfirmation.attentionBox.firstPoint" = "Make sure the address and network is correct.";
+"wallet.withdrawCoinConfirmation.attentionBox.secondPoint" = "After confirming, this transaction cannot be canceled";
+"wallet.withdrawCoinConfirmation.withdrawButton" = "Withdraw Coin";
+"wallet.withdrawCoinConfirmation.successWdCoinTitle" = "Harap lakukan konfirmasi!";
+"wallet.withdrawCoinConfirmation.successWdCoinDescription" = "Email konfirmasi telah dikirim ke kotak masuk email Anda. Untuk melanjutkan permintaan, klik tautan konfirmasi yang diberikan.\nTidak menemukan email? Periksa folder spam atau bagian promosi.";
+"wallet.withdrawCoinConfirmation.failedWdCoinTitle" = "Send Coin Failed";
+"wallet.withdrawCoinConfirmation.memoTitle" = "Memo";
+
+// section for save coin address/username list on wallet
+"wallet.savedAddressList.address.navigationTitle" = "Select Coin Address";
+"wallet.savedAddressList.username.navigationTitle" = "Select Username";
+"wallet.savedAddressList.address.addButton" = "Add New Address";
+"wallet.savedAddressList.username.addButton" = "Add New Username";
+"wallet.savedAddressList.address.snackbar.successAdd" = "Address successfully added";
+"wallet.savedAddressList.username.snackbar.successAdd" = "Username successfully added";
+"wallet.savedAddressList.address.snackbar.successRemove" = "Address successfully removed";
+"wallet.savedAddressList.username.snackbar.successRemove" = "Username successfully removed";
+"wallet.savedAddressList.address.snackbar.successEdit" = "Address successfully edited";
+"wallet.savedAddressList.username.snackbar.successEdit" = "Username successfully edited";
+"wallet.savedAddressList.address.snackbar.successReorder" = "Address list successfully set";
+"wallet.savedAddressList.username.snackbar.successReorder" = "Username list successfully set";
+"wallet.savedAddressList.address.emptyViewTitle" = "No coin address saved yet";
+"wallet.savedAddressList.username.emptyViewTitle" = "No username saved yet";
+"wallet.savedAddressList.address.emptyViewDescription" = "Your saved coin address will be shown in this page";
+"wallet.savedAddressList.username.emptyViewDescription" = "Coin username that you saved will be shown in this page";
+
+// section for save coin address/username form on wallet
+"wallet.savedAddressForm.addAddressNavigationTitle" = "Add New Address";
+"wallet.savedAddressForm.addUsernameNavigationTitle" = "Add New Username";
+"wallet.savedAddressForm.editAddressNavigationTitle" = "Set Coin Address";
+"wallet.savedAddressForm.editUsernameNavigationTitle" = "Set Coin Username";
+"wallet.savedAddressForm.coinNameTitle" = "Coin Name";
+"wallet.savedAddressForm.recipientNameTitle" = "Recipient Name";
+"wallet.savedAddressForm.recipientNamePlaceholder" = "Enter Recipient Name";
+"wallet.savedAddressForm.addressLabelTitle" = "Address Label";
+"wallet.savedAddressForm.addressLabelPlaceholder" = "Enter Address Label";
+"wallet.savedAddressForm.usernameLabelTitle" = "Username Label";
+"wallet.savedAddressForm.usernameLabelPlaceholder" = "Enter Username Label";
+"wallet.savedAddressForm.recipientAddressTitle" = "Recipient Address";
+"wallet.savedAddressForm.recipientAddressPlaceholder" = "Enter Recipient Address";
+"wallet.savedAddressForm.recipientUsernameTitle" = "Indodax Username";
+"wallet.savedAddressForm.recipientUsernamePlaceholder" = "Enter Indodax Username";
+"wallet.savedAddressForm.selfAddressDeclarationTitle" = "Personal Account Address";
+"wallet.savedAddressForm.selfAddressDeclarationDescription" = "The recipient address above is your own account, not anybody else's";
+"wallet.savedAddressForm.networkTitle" = "Network";
+"wallet.savedAddressForm.networkPlaceholder" = "Select Network";
+"wallet.savedAddressForm.addressOriginTitle" = "Address Origin";
+"wallet.savedAddressForm.addressOriginPlaceholder" = "Select Address Origin";
+"wallet.savedAddressForm.exchangeTitle" = "Exchange";
+"wallet.savedAddressForm.exchangePlaceholder" = "Select Exchange";
+"wallet.savedAddressForm.exchangeNameTitle" = "Exchange Name";
+"wallet.savedAddressForm.exchangeNamePlaceholder" = "Enter Exchange Name";
+"wallet.savedAddressForm.walletTitle" = "Wallet";
+"wallet.savedAddressForm.walletPlaceholder" = "Select Wallet";
+"wallet.savedAddressForm.walletNameTitle" = "Wallet Name";
+"wallet.savedAddressForm.walletNamePlaceholder" = "Enter Wallet Name";
+"wallet.savedAddressForm.saveAddressButtonTitle" = "Save Address";
+"wallet.savedAddressForm.saveUsernameButtonTitle" = "Save Username";
+"wallet.savedAddressForm.addressOriginTypeSelection.Title" = "Select Address Origin";
+"wallet.savedAddressForm.addressOriginTypeSelection.exchangeTitle" = "Exchange";
+"wallet.savedAddressForm.addressOriginTypeSelection.walletTitle" = "Wallet";
+"wallet.savedAddressForm.addressOriginNameSelection.exchangeTitle" = "Select Exchange";
+"wallet.savedAddressForm.addressOriginNameSelection.searchExchange" = "Search Exchange...";
+"wallet.savedAddressForm.addressOriginNameSelection.walletTitle" = "Select Wallet";
+"wallet.savedAddressForm.addressOriginNameSelection.searchWallet" = "Search Wallet...";
+
+//section for earn general
+"wallet.earn.general.stakingAmount" = "Staking Amount";
+"wallet.earn.general.apyEstimation" = "Est. APY";
+"wallet.earn.general.interestEstimation" = "Est. Interest";
+"wallet.earn.general.interestPeriod" = "Interest Period";
+"wallet.earn.general.cumulativeInterest" = "Cumulative Interest";
+"wallet.earn.general.boundingPeriod" = "Bounding Period";
+"wallet.earn.general.unboundingPeriod" = "Unbounding Period";
+"wallet.earn.general.minimalStaking" = "Minimal Staking";
+"wallet.earn.general.stakingDate" = "Staking Date";
+"wallet.earn.general.activationDate" = "Activation Date";
+"wallet.earn.general.summary" = "Summary";
+"wallet.earn.general.availableInterest" = "Collected Interest";
+"wallet.earn.general.tax" = "Tax";
+"wallet.earn.general.receivedInterest" = "Received Interest";
+"wallet.earn.general.agreementTitle" = "I have read and agree with the %@";
+"wallet.earn.general.boldAgreementTitle" = "Indodax Staking Service Agreement";
+"wallet.earn.general.unstakingAmount" = "Unstaking Amount";
+"wallet.earn.general.claimReward" = "Received Interest";
+"wallet.earn.general.backToEarn" = "Back to Earn";
+"wallet.earn.general.stakeNow" = "Stake Now";
+"wallet.earn.general.maintenance" = "Under Maintenance";
+"wallet.earn.general.shortMaintenance" = "Maintenance";
+
+//section for earn infoview
+"wallet.earn.infoView.apyEstimation.title" = "Est. APY";
+"wallet.earn.infoView.apyEstimation.description" = "Estimated Annual Percentage Yield is the percentage of interest you earn annually. The interest is subject to change following the terms of each asset's blockchain.";
+"wallet.earn.infoView.interestEstimation.title" = "Est. Interest";
+"wallet.earn.infoView.interestEstimation.description" = "Estimated interest that can be obtained from the rewards. This amount is determined by the blockchain of each asset.";
+"wallet.earn.infoView.interestPeriod.title" = "Interest Period";
+"wallet.earn.infoView.interestPeriod.description" = "The rewards distribution period that determined by the blockchain of each asset.";
+"wallet.earn.infoView.claimInterest.title" = "Received Interest";
+"wallet.earn.infoView.claimInterest.description" = "Received rewards from asset staking after charged with 0.11% tax fee.";
+"wallet.earn.infoView.boundingPeriod.title" = "Bounding Period";
+"wallet.earn.infoView.boundingPeriod.description" = "Required period for the recently staked asset to start earning. The Activation Period is determined by the blockchain of each asset.";
+"wallet.earn.infoView.unboundingPeriod.title" = "Unbounding Period";
+"wallet.earn.infoView.unboundingPeriod.description" = "Required wait period to receive asset after unstaking asset. Unbounding period is determined by the blockchain of each asset.";
+"wallet.earn.infoView.fee.title" = "Tax";
+"wallet.earn.infoView.fee.description" = "A tax of 0.11%% will be charged to the obtained rewards from the asset staking.";
+"wallet.earn.infoView.status.title" = "Status";
+"wallet.earn.infoView.status.descriptionHtml" = "<ul><li><b>Bounding</b> indicates that your asset has entered the staking queue but has not started generating rewards yet.</li></ul>\n<ul><li><b>Earning</b> indicates that your assets are in the process of generating staking rewards.</li></ul>\n<ul><li><b>Unbounding</b> indicates that your asset has entered the unstaking queue and has stopped generating rewards.</li></ul>";
+"wallet.earn.infoView.status.description.boundingKey" = "Bounding";
+"wallet.earn.infoView.status.description.boundingValue" = "indicates that your asset has entered the staking queue but has not started generating rewards yet.";
+"wallet.earn.infoView.status.description.unboundingKey" = "Unbounding";
+"wallet.earn.infoView.status.description.unboundingValue" = "indicates that your asset has entered the unstaking queue and has stopped generating rewards.";
+"wallet.earn.infoView.status.description.earningKey" = "Earning";
+"wallet.earn.infoView.status.description.earningValue" = "indicates that your assets are in the process of generating staking rewards.";
+
+//section for earn
+"wallet.earn.navigationTitle" = "Earn";
+"wallet.earn.estimationTitle" = "Est. Staking Value";
+"wallet.earn.totalInterestTitle" = "Total Interest";
+"wallet.earn.profitTitle" = "24 Hours Profit";
+"wallet.earn.assetButton" = "View Assets";
+"wallet.earn.portfolioTitle" = "Portofolio";
+"wallet.earn.emptyViewTitle" = "You don’t have any earn portfolio";
+"wallet.earn.emptyViewDescription" = "Your earn portfolio will be displayed in this page";
+
+//section for staking list
+"wallet.stakingList.navigationTitle" = "Staking";
+
+//section for ethereum staking info
+"wallet.ethStakingInfo.navigationTitle" = "ETH 2.0";
+"wallet.ethStakingInfo.headerTitle" = "What is ETH 2.0 Indodax Staking?";
+"wallet.ethStakingInfo.headerDescription" = "Indodax Staking helps you grow your ETH asset by locking your ETH in Ethereum Beacon Chain";
+"wallet.ethStakingInfo.easyAndSimple" = "Easy and Simple";
+"wallet.ethStakingInfo.safeAndSecure" = "Safe and Secure";
+"wallet.ethStakingInfo.lowBariers" = "Low Bariers";
+"wallet.ethStakingInfo.principalGuaranteed" = "Principal Guaranteed";
+"wallet.ethStakingInfo.processTitle" = "ETH 2.0 Staking Process";
+"wallet.ethStakingInfo.stakeTitle" = "Stake ETH";
+"wallet.ethStakingInfo.stakeDescription" = "Stake your ETH 2.0 with fast and easy starting from 0.001 ETH";
+"wallet.ethStakingInfo.rewardsTitle" = "Rewards Distribution";
+"wallet.ethStakingInfo.rewardsDescription" = "Rewards distribution from your staking will be done after Ethereum has finished the Shanghai upgrade aproximately in 2023. But your ETH Staking rewards will be calculated since you strart to stake ETH 2.0";
+"wallet.ethStakingInfo.redeemTitle" = "Redeem ETH";
+"wallet.ethStakingInfo.redeemDescription" = "ETH Staking withdrawal can be done after the Shanghai upgrade is finished in 2023";
+
+//section for add staking
+"wallet.addStaking.navigationTitle" = "Staking %@";
+"wallet.addStaking.stakingAmountPlaceholder" = "Enter stake amount";
+"wallet.addStaking.availableAssetTitle" = "Available Assets";
+"wallet.addStaking.errorMinimumStaking" = "Insufficient Amount";
+"wallet.addStaking.errorAssetNotEnough" = "Insufficient Assets";
+"wallet.addStaking.errorFailedStakingTitle" = "Staking %@ Failed";
+"wallet.addStaking.attentionTitle" = "Attention";
+
+//section for success staking
+"wallet.successStaking.navigation" = "Staking %@ Success";
+"wallet.successStaking.portfolioButton" = "Check Portofolio";
+
+//section for portfolio
+"wallet.portfolio.detailTitle" = "Detail";
+"wallet.portfolio.historyTitle" = "History";
+"wallet.portfolio.moreMenu.title" = "Others";
+"wallet.portfolio.moreMenu.helpTitle" = "Help and Support";
+"wallet.portfolio.moreMenu.unstakingTitle" = "Unstaking";
+
+//section for portfolio detail
+"wallet.portfolioDetail.status" = "Status";
+"wallet.portfolioDetail.claimButton" = "Claim Interest";
+
+//section for claim reward
+"wallet.claimReward.navigationTitle" = "Claim Interest";
+"wallet.claimReward.infoTitle" = "Informasi";
+"wallet.claimReward.infoDescription" = "The received interest will be sent into your wallet in 1x24 hours.";
+"wallet.claimReward.claimButton" = "Confirm";
+"wallet.claimReward.errorFailedClaimTitle" = "Failed to Claim Interest";
+
+//section for claim reward success
+"wallet.claimRewardSuccess.title" = "Successfully Claim Interest";
+"wallet.claimRewardSuccess.claimDate" = "Claiming Date";
+
+//section for unstaking
+"wallet.unstaking.navigationTitle" = "Unstaking %@";
+"wallet.unstaking.infoTitle" = "Attention";
+"wallet.unstaking.infoDescription" = "Available interest will be automatically claimed if you unstake";
+"wallet.unstaking.errorFailedUnstakingTitle" = "Unstaking %@ Failed";
+"wallet.unstaking.attentionMessage" = "You need a %@ of Unbounding Period to receive %@ in your wallet";
+
+//section for unstaking success
+"wallet.unstakingSuccess.title" = "Unstaking %@ Success";
+"wallet.unstakingSuccess.unstakingDate" = "Unstaking Date";
+"wallet.unstakingSuccess.receivedDate" = "Receive Date";
+
+//section for earn history
+"wallet.earnHistory.navigation" = "Earn History";
+"wallet.earnHistory.stakingTabTitle" = "Staking";
+"wallet.earnHistory.unstakingTabTitle" = "Unstaking";
+"wallet.earnHistory.noDataTitle" = "No transaction history yet";
+"wallet.earnHistory.noDataDescription" = "Your transaction activities will be saved and can be seen on this page";
+
+"wallet.history.nav.depoIdr" = "Deposit IDR";
+"wallet.history.nav.withdrawIdr" = "Withdraw IDR";
+"wallet.history.nav.generateVoucher" = "Generate Voucher";
+"wallet.history.nav.redeemVoucher" = "Redeem Voucher";
+
+"wallet.history.voucherTotal" = "Voucher Total";
+"wallet.history.withdrawTotal" = "Total Withdrawal";
+
+"wallet.history.withdrawTarget" = "Withdrawal Destination";
+"wallet.history.voucherCode" = "Voucher Code";
+"wallet.history.recipientEmail" = "Recipient Email";
+//section for email confirmation
+"wallet.emailConfirmation.sentTitle" = "Please confirm your request!";
+"wallet.emailConfirmation.resentTitle" = "Successfully Resent Email";
+"wallet.emailConfirmation.description" = "Email confirmation has been sent to email inbox. Click on the confirmation link provided to confirm your request. If you did not find the email in your inbox, we also advise you to check your spam box and the promotional section";
+"wallet.emailConfirmation.button" = "Check My Email";
+
+"wallet.assetDetail.limitDesc" = "Daily Withdraw Limit will be coming soon in the Indodax application. Currently you can apply for a Daily Withdraw Limit through the Indodax website.";
+"wallet.assetDetail.limitTitle" = "Upgrade Withdraw Limit";
+
+"wallet.assetDetail.infoTitle" = "Total Rupiah/IDR asset";
+"wallet.assetDetail.infoDesc" = "Total asset you have in Rupiah";
+"wallet.assetDetail.infoTotalIdr" = "Total your Rupiah/IDR asset:";
+"wallet.assetDetail.infoSaldoRemain" = "Remaining Balance:";
+
+"wallet.wd.idr.addressLabel";
+
+// MARK: - Exchange
+// Home
+"home.navigation.pro.title.lbl" = "PRO";
+"home.navigation.lite.title.lbl" = "LITE";
+
+"home.verification.title.lbl" = "Verify Your Account";
+"home.verification.desc.lbl" = "Verify your account to start Buy and Sell Crypto";
+"home.verification.process.title" = "Account Verification is in Process";
+"home.verification.process.desc" = "Your account verification request is being reviewed";
+"home.verification.lock.title" = "Your Account Activity is Locked";
+"home.verification.lock.desc" = "Perform the face detection test process to reactivate your account";
+
+
+
+"home.pager.trending.lbl" = "Trending";
+"home.pager.gainers.lbl" = "Gainers";
+"home.pager.losers.lbl" = "Losers";
+"home.pager.newcoin.lbl" = "New Coin";
+
+"home.filter.down.lbl" = "down";
+"home.filter.up.lbl" = "up";
+"home.filter.default.lbl" = "default";
+
+"home.pagger.header.price.lbl" = "Price";
+"home.pagger.header.name.lbl" = "Name";
+"home.pagger.header.24h.lbl" = "24H Chg";
+"home.pagger.header.vol.24h.lbl" = "Vol 24H";
+
+"home.menu.deposit.lbl" = "Deposit";
+"home.menu.history.lbl" = "History";
+"home.menu.academy.lbl" = "Academy";
+"home.menu.help.lbl" = "Help";
+"home.menu.earn.lbl" = "Earn";
+
+"home.empty.pagger.newcoin" = "No coin available";
+
+"Favorite" = "Favorite";
+
+// Home Lite
+"homelite.balanceView.title.lbl" = "Welcome to Indodax!";
+"homelite.balanceView.desc.lbl" = "Buy & Sell Crypto easily, quick and safe";
+"homelite.balanceView.Asset.title.lbl" = "Estimated Asset Value";
+"homelite.balanceView.Asset.desc.lbl" = "Estimated Asset Value is the estimation of the total value of all the assets you own.";
+"homelite.showall" = "View More";
+"homelite.coinTrending" = "Trending Coin";
+"homelite.newNews" = "Latest News";
+
+// Edit Favorite
+"editfavorite.toastMessage" = "Drag coin to manage coin list";
+
+// Search
+"search.searchCoin" = "Search Coin...";
+"search.trending" = "Trending Searches";
+"search.result" = "Search Result";
+"search.history" = "Search History";
+"search.delete" = "Clear History";
+"search.emptyTitle" = "No result for the keyword you're searching";
+"search.emptyDesc" = "Try to use another keyword to find the coin you're searching";
+
+// Notification
+"notification.lbl" = "Notification";
+"notification.transaction.lbl" = "Transaction";
+"notification.info.lbl" = "Info";
+"notification.bonus.lbl" = "Bonus";
+
+"notification.new" = "Latest";
+"notification.markAll" = "Mark all as read";
+"notification.empty.title" = "No Notification yet";
+"notification.empty.desc" = "Your notification list will be shown here";
+
+"notification.setting.navbar.title" = "Push Notification";
+"notification.setting.list" = "Notification List";
+"notification.setting.list.desc" = "Choose notification you want to receive";
+"notification.setting.transaction.desc" = "Order filled, withdraw/deposit rupiah, send/receive coin.";
+"notification.setting.bonus.desc" = "Referal, giveaway dan promo";
+"notification.setting.activityAccount" = "Account Activity";
+"notification.setting.activityAccount.desc" = "Login, change password, install/uninstall 2fA";
+"notification.turn.off" = "Turn Off Notification";
+"notification.turn.off.desc" = "If you turn off push notification, you will not receive any notification";
+"notification.turnoff.btn.off" = "Turn Off";
+
+
+// Market
+"market.category.all" = "All";
+// Market
+"market.category.idrtitle" = "IDR Market";
+"market.category.idrdesc" = "List of coins that is available in IDR Market or IDR Pair.";
+
+"market.category.usdttitle" = "USDT Market";
+"market.category.usdtdesc" = "List of coins that is available in USDT Market or USDT Pair.";
+
+"market.category.alltitle" = "All Coin";
+"market.category.alldesc" = "List of all coins that is available in the market.";
+"market.widget.toast" = "Coin list has been modified successfully";
+"market.widget.cancelChanges" = "Discard Changes";
+
+"market.list.price" = "Price";
+"market.list.name" = "Name";
+"market.list.change" = "Change";
+"market.list.vol" = "Vol";
+"market.edit.favorite" = "Manage Favorite Coin";
+"market.favorite.emptyTitle" = "You don't have any favorite coins";
+"market.favorite.emptyDesc" = "Add coins to your favorite list to track your coins with fast and easy";
+"market.favorite.title" = "Favorite Coin";
+"market.favorite.setfavorite" = "Manage Coin";
+"market.more" = "Others";
+"market.all.title" = "All";
+"market.all.desc" = "All Coin";
+"market.button.maintenance" = "Coin is on maintenance";
+
+// Market Detail
+"market.detail.list.sum" = "Amount";
+"market.detail.list.price" = "Price";
+"market.detail.list.time" = "Time";
+"market.detail.list.name" = "Name";
+"market.select.coin" = "Select Coin";
+
+"market.detail.estimation" = "Est. in rupiah";
+"market.detail.infobutton" = "Read More";
+"market.detail.list.externalMarket" = "External Market";
+"market.detail.info.title" = "Market Statistics";
+"market.detail.info.volume" = "Vol. 24 Hours";
+"market.detail.info.capitalisation" = "Market Capitalization";
+"market.detail.info.supply" = "Circulating Supply";
+"market.detail.info.supplymax" = "Maximum Supply";
+"market.detail.info.about" = "About %@";
+"market.detail.info.sumasset" = "Total Asset";
+"market.detail.indicator.title" = "Indicator Settings";
+"market.detail.interval.title" = " Setting Interval";
+
+"market.detail.ordebook" = "Order Book";
+"market.detail.trade" = "Trades";
+"market.detail.external" = "External Market";
+"market.detail.info" = "Info";
+"market.detail.reset" = "Reset";
+"market.detail.period" = "Period Calculation";
+"market.detail.bandwidth" = "Bandwidth";
+"market.detail.index" = "Index";
+"market.detail.value" = "Value";
+"market.detail.color" = "Color";
+"market.detai.transaction.failed.title" = "Transaction can’t be processed";
+"market.detai.transaction.failed.desc" = "Your transaction could not be processed due to the protection of price tolerance limits on the market. Please try again with a smaller price and quantity.";
+
+"market.detail.boll" = "BOLL";
+"market.detail.ema" = "EMA";
+"market.detail.ma" = "MA";
+"market.detail.vol" = "Vol";
+
+"market.detail.bid" = "Bid";
+"market.detail.ask" = "Ask";
+
+"market.detail.price" = "%@ Price";
+"market.detail.settingInterval" = " Setting Interval";
+"market.detail.mainIndicator" = "Main Indicator";
+
+// Trade
+"trade.form.btn" = "Price";
+"trade.form.amount.textfield" = "Amount (%@)";
+"trade.form.estimated.textfield" = "Total (%@)";
+"trade.form.price.textfield" = "Price (%@)";
+"trade.orderbook.seemore" = "View More";
+"trade.maintenance" = "Coin Under Maintenance";
+"trade.maintenanceDesc" = "We are sorry, %@ is under maintenance. You can't buy or sell coin when the asset is under maintenance";
+
+"trade.more.title" = "More";
+"trade.more.withdraw" = "Withdraw";
+"trade.more.deposit" = "Deposit";
+"trade.more.rating" = "See Rating";
+"trade.more.add" = "Add";
+"trade.more.add.to" = "to";
+"trade.more.delete" = "Delete";
+"trade.more.delete.from" = "from";
+"trade.more.favorite" = "Favorite";
+
+
+"trade.sort.title" = "Sort";
+"trade.sort.titleOrderBook" = "Sort Order Book";
+"trade.sort.sellorder" = "Sell Order";
+"trade.sort.buyorder" = "Buy Order";
+
+"trade.toltip.openOrder.title" = "Open Orders";
+"trade.toltip.openOrder.desc" = "This amount doesn't include deductions from tax or service fee";
+
+"trade.alert.more.addFavorite" = "Coin successfully added";
+"trade.alert.more.deleteFavorite" = "Coin successfully removed";
+
+"trade.alert.openOrder.cancelOrder.title" = "Cancel Order";
+"trade.alert.openOrder.attention" = "Notice";
+"trade.alert.openOrder.cancelOrder" = "Are you sure you want to cancel this order?";
+"trade.alert.openOrder.cancelAll" = "All open order on all coins will be cancelled.";
+"trade.alert.openOrder.btn.cancelOrder" = "Cancel Order";
+"trade.alert.openOrder.btn.cancelAll" = "Cancel All";
+
+"trade.alert.nopendingorder" = "No Pending Order";
+
+"trade.alert.filled.empty" = "%@ field has to be filled";
+"trade.alert.buy.min" = "Minimum purchase %@";
+"trade.alert.sell.min" = "Minimum sell %@"; //TODO: Translate nunggu PO
+"trade.alert.noenoughbalance" = "Insufficient Balance";
+"trade.alert.deleteOrder" = "Order is successfully removed";
+
+"trade.alert.risk.title" = "Risk Warning";
+"trade.alert.risk.desc" = "This token has a high volatility price. Please trade mindfully. The risk of losing assets is the responsibility of each user.";
+
+"trade.alert.slipPage.title" = "Order Book is not enough";
+"trade.alert.slipPage.desc" = "The transaction is too large for the market method. Please enter a smaller nominal";
+"trade.alert.slipPage.positiveButtonTitle" = "I Understand";
+
+"trade.alert.puchase.success" = "Purchase was successful";
+"trade.alert.sell.success" = "Sell was successful";
+
+"trade.openorder.history" = "History";
+"trade.openorder.seeall" = "Show All";
+"trade.openorder.noorder" = "No Pending Order";
+"trade.openorder.filled" = "Filled";
+"trade.openorder.trigger" = "Triggered Price";
+"chart.nodata" = "No Data Chart";
+
+// Trade Lite
+"tradelite.detailtransaction" = "Transaction Details";
+"tradelite.buysum" = "Total Buy";
+"tradelite.sellsum" = "Total Sell";
+"tradelite.updateestimation" = "Coin price updated";
+"tradelite.confirmation" = "Confirmation";
+"tradelite.confirmation.buy.navbar.title" = "Confirm Purchase";
+"tradelite.confirmation.sell.navbar.title" = "Confirm Sell";
+
+"tradelite.seehistory" = "See History";
+"tradelite.share" = "Share";
+"tradelite.share.title" = "Invest # AsetMasaDepan Now!";
+"tradelite.share.desc" = "Scan to download Indodax App";
+"tradelite.estimationreceive" = "Est. Received Amount";
+"tradelite.estmation.desc" = "Estimated amount that can be received from a transaction. This amount can change following the market movement. The final amount will be determined after the transaction is success.";
+"tradelite.confirmation.transactionSuccess" = "Transaction Success!";
+"tradelite.confirmation.receive" = "You received";
+
+"tradelite.buyNow" = "Buy Coin";
+"tradelite.sellNow" = "Sell Coin";
+
+"tradelite.alert.slippage.title" = "Transaction can't be processed";
+"tradelite.alert.slippage.desc" = "Your transaction could not be processed due to the protection of price tolerance limits on the market. Please try again with a smaller price and quantity";
+
+"tradelite.alert.transaction.success" = "Transaction Success!";
+
+"account.forceupdate.title" = "New Version Available";
+"account.forceupdate.desc" = "We added new feature and fix some bug to make your experience better. Please update your app to latest version.";
+"account.forceupdate.button" = "Update Now";
+
+"wallet.transactionHistory.payment.method" = "Payment Method";
+"wd.idr.totalDeposit" = "Total Deposit";
+"wd.idr.searchNotFound" = "Try to use another keywords to find the result you’re searching";
