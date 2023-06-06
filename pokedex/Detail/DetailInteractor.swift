@@ -29,9 +29,10 @@ extension DetailInteractor: DetailUseCase {
                         if statusCode == 200 {
                             self?.presenter?.successGetPokedexList(data: result)
                         } else {
-                            let message = data!["message"]
+                            let error = data!["error"] as? [String:Any]
+                            let message = error?["message"] as? String
                             DispatchQueue.main.async {
-                                self?.presenter?.failGetPokedexList(errorMessage: message as? String ?? "Failed get Pokedex")
+                                self?.presenter?.failGetPokedexList(errorMessage: message ?? "Failed get Pokedex")
                             }
                         }
                     }
@@ -59,9 +60,10 @@ extension DetailInteractor: DetailUseCase {
                         if statusCode == 200 {
                             self?.presenter?.successGetPokeDetail(data: result)
                         } else {
-                            let message = data!["message"]
+                            let error = data!["error"] as? [String:Any]
+                            let message = error?["message"] as? String
                             DispatchQueue.main.async {
-                                self?.presenter?.failGetPokeDetail(errorMessage: message as? String ?? "Failed get Pokemon detail")
+                                self?.presenter?.failGetPokeDetail(errorMessage: message ?? "Failed get Pokemon detail")
                             }
                         }
                     }
